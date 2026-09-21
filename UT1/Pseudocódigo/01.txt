@@ -1,0 +1,10 @@
+// Haz un programa que pida la edad de una persona en años y calcule cuántos días ha vivido aproximadamente, suponiendo que todos los años tienen 365 días.
+
+INICIO
+  DEFINE edad COMO ENTERO
+  DEFINE dias COMO ENTERO
+  ESCRIBIR "Introduce tu edad en años"
+  LEER edad
+  dias <- edad * 365
+  ESCRIBIR "Has vivido ", dias, " dias"
+FIN

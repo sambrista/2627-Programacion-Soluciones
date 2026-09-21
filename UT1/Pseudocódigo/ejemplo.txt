@@ -1,0 +1,8 @@
+INICIO
+  DEFINE CANTIDAD COMO FLOAT
+  DEFINE RESULTADO COMO FLOAT
+  ESCRIBE "Introduzca la cantidad en euros"
+  LEER CANTIDAD
+  RESULTADO <- CANTIDAD * 1.15
+  ESCRIBE "La cantidad introducida en dólares es ", RESULTADO
+FIN

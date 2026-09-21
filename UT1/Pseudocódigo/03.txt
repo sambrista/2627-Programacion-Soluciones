@@ -1,0 +1,20 @@
+// Diseña un programa que lea cuatro notas con decimales introducidas por el usuario y muestre su media aritmética 
+
+INICIO
+  DEFINE nota1 COMO FLOAT
+  DEFINE nota2 COMO FLOAT
+  DEFINE nota3 COMO FLOAT
+  DEFINE nota4 COMO FLOAT
+  DEFINE media COMO FLOAT
+  
+  ESCRIBIR "Introduce la nota 1"
+  LEER nota1  
+  ESCRIBIR "Introduce la nota 2"
+  LEER nota2  
+  ESCRIBIR "Introduce la nota 3"
+  LEER nota3  
+  ESCRIBIR "Introduce la nota 4"
+  LEER nota4
+  media <- (nota1 + nota2 + nota3 + nota4) / 4
+  ESCRIBIR "La nota media es ", media
+FIN

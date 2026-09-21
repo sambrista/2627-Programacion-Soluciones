@@ -1,0 +1,18 @@
+// Pide al usuario un número (sin decimales) entre 0 y 999 e imprime cuantas centenas, decenas y unidades componen el número. Por ejemplo, 234 son 2 centenas, 3 decenas y 4 unidades.
+
+INICIO
+  DEFINE numero COMO ENTERO
+  DEFINE unidades COMO ENTERO
+  DEFINE decenas COMO ENTERO
+  DEFINE centenas COMO ENTERO
+
+  ESCRIBIR "Escribe un numero entre 0 y 999"
+  LEER numero
+  
+  centenas <- numero / 100
+  decenas <- numero / 10 - centenas * 10
+  unidades <- numero - centenas * 100 - decenas * 10
+
+  ESCRIBIR "Son ", centenas, " centenas ", decenas, " decenas y ", unidades, " unidades"
+
+FIN
