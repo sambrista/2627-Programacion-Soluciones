@@ -1,0 +1,11 @@
+//Un conductor quiere conocer el consumo medio de su vehículo. Pide los kilómetros recorridos y los litros de combustible consumidos. Calcula y muestra cuántos litros consume el vehículo cada 100 km
+
+INICIO
+  DEFINE kilometros, litros, resultado COMO FLOAT
+  ESCRIBIR "Cuantos kilometros has recorrido?"
+  LEER kilometros
+  ESCRIBIR "¿Cuántos litros has gastado?"
+  LEER litros
+  resultado <- 100 * litros / kilometros
+  ESCRIBIR "Cada 100 km se gastan ", resultado, " litros".
+FIN

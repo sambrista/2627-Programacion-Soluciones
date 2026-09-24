@@ -1,0 +1,16 @@
+// Pide dos números enteros al usuario e imprime sus valores antes y después de intercambiarlos.
+
+INICIO
+    DEFINE numero1 como entero
+    DEFINE numero2 como entero
+    DEFINE numeroGuardado como entero
+    ESCRIBE "Introduce tu primer numero"
+    LEE numero1
+    ESCRIBE "Introduce tu segundo numero"
+    LEE numero2
+    ESCRIBE "Tu primer numero es ",numero1" y tu segundo numero es "numero 2"
+    numeroGuardado <- numero1
+    numero1 <- numero2
+    numero2 <- numeroGuardado
+    ESCRIBE "Tu primer numero es ",numero1" y tu segundo numero ",numero2" "
+FIN

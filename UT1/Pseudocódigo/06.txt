@@ -1,0 +1,11 @@
+// Crea un programa que solicite el radio de una esfera (puede tener decimales) y calcule tanto su perímetro como su volumen.
+
+INICIO
+  DEFINE radio, perimetro, volumen, pi COMO FLOAT
+  pi <- 3.14
+  ESCRIBIR "¿Cuál es el radio?
+  LEER radio
+  perimetro <- 2 * pi * radio
+  volumen <- (4 / 3) * pi * radio * radio * radio.
+  ESCRIBIR "EL perímetro es ", perimetro, ", el volumen es ", volumen
+FIN
