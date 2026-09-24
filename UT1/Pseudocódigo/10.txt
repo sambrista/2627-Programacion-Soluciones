@@ -1,0 +1,23 @@
+//  En una asignatura, la nota final se obtiene utilizando los siguientes criterios:
+//  - 30 % de la nota de un primer examen.
+//  - 30 % de la nota de un segundo examen.
+//  - 25 % de un proyecto.
+//  - 15 % de las actividades realizadas en clase.
+//  Escribe un programa que solicite las cuatro calificaciones y calcule y muestre la nota final del estudiante.
+
+INICIO
+	DEFINE notaExamen1, notaExamen2, notaProyecto, notaActividades, notaFinal COMO FLOAT
+
+	ESCRIBIR "Introduce la nota del primer examen"
+	LEER notaExamen1
+	ESCRIBIR "Introduce la nota del segundo examen"
+	LEER notaExamen2
+	ESCRIBIR "Introduce la nota del proyecto"
+	LEER notaProyecto
+	ESCRIBIR "Introduce la nota de las actividades"
+	LEER notaActividades
+
+	notaFinal <- 0.3 * notaExamen1 + 0.3 * notaExamen2 + 0.25 * notaProyecto + 0.15 * notaActividades
+
+	ESCRIBIR "La nota final es ", notaFinal
+FIN

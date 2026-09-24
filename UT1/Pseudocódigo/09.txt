@@ -1,0 +1,19 @@
+// Calculadora 1.0: Algoritmo que lea dos números, calculando y escribiendo el valor de su suma, resta, producto, división.
+
+INICIO
+  DEFINE numero1, numero2, suma, resta, producto, division COMO ENTERO
+
+  ESCRIBIR "Introduce el primer número: "
+  LEER numero1
+  ESCRIBIR "Introduce el segundo número: "
+  LEER numero2
+  suma <- numero1 + numero2
+  resta <- numero1 - numero2
+  producto <- numero1 * numero2
+  division <- numero1 / numero2
+  ESCRIBIR numero1, " + ", numero2, " = ", suma
+  ESCRIBIR numero1, " - ", numero2, " = ", resta
+  ESCRIBIR numero1, " * ", numero2, " = ", producto
+  ESCRIBIR numero1, " / ", numero2, " = ", division
+
+FIN
