@@ -12,12 +12,12 @@
 
 import java.util.Scanner;
 
-public class Cond10{
+public class Condicionales10{
     public static void main(){
         int edad;
         Scanner teclado = new Scanner(System.in);
         
-        System.out.println("Dime la edad de la persona")
+        System.out.println("Dime la edad de la persona");
         edad = teclado.nextInt();
         
         if (edad < 0){

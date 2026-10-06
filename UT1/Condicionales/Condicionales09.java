@@ -14,7 +14,7 @@ public class Condicionales09 {
     public static void main(){
         int dia;
 		double precio;
-		boolean es3D;
+		boolean esSesion3D;
         Scanner teclado = new Scanner(System.in);
 		esSesion3D = false;
         
