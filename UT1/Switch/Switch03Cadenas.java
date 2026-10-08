@@ -7,12 +7,13 @@
  * - Dividir
  * Según lo que el usuario elija, mostrar la operación matemática que corresponde y su resultado.
  */
+
 import java.util.Scanner;
 
 public class Switch03Cadenas {
     public static void main(String[] args) {
-        double num1=0, num2=0, resultado=0;
-        String operacion = "?";
+        double num1 = 0, num2 = 0, resultado = 0;
+        String operacion = "";
         int opcion = 0;
         Scanner sc = new Scanner(System.in);
 

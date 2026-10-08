@@ -6,29 +6,30 @@
    en el aparcamiento y calcule el precio que debe pagar.
 
 */
+
 import java.util.Scanner;
 
 public class Condicionales08 {
-    public static void main(String[] args){
-		int numeroHoras;
-		double importe;
+    public static void main(String[] args) {
+        int numeroHoras;
+        double importe;
         Scanner teclado = new Scanner(System.in);
-        
-		System.out.println("Introduzca el número de horas: ");
-		numeroHoras = teclado.nextInt();
+
+        System.out.println("Introduzca el número de horas: ");
+        numeroHoras = teclado.nextInt();
 		
 		/*if (numeroHoras <= 2) {
 			importe = 3;
 		} else {
 			importe = 3 + (numeroHoras-2) * 1.50;
 		}*/
-		
-		importe = 3;
-		
-		if (numeroHoras > 2) {
-			importe = importe + (numeroHoras-2) * 1.50;
-		}
-		
-		System.out.println("El importe total es de " + importe + " euros");
+
+        importe = 3;
+
+        if (numeroHoras > 2) {
+            importe = importe + (numeroHoras - 2) * 1.50;
+        }
+
+        System.out.println("El importe total es de " + importe + " euros");
     }
 }

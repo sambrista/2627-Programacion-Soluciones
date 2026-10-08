@@ -1,10 +1,8 @@
 import java.util.Scanner;
 
-public class Condicionales02AlfonsoSanchez
-{
-    public static void main()
-    {
-		float num1, num2, numMenor;
+public class Condicionales02AlfonsoSanchez {
+    public static void main() {
+        float num1, num2, numMenor;
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Número 1: ");

@@ -12,35 +12,25 @@
 
 import java.util.Scanner;
 
-public class Condicionales10{
-    public static void main(){
+public class Condicionales10 {
+    public static void main() {
         int edad;
         Scanner teclado = new Scanner(System.in);
-        
+
         System.out.println("Dime la edad de la persona");
         edad = teclado.nextInt();
-        
-        if (edad < 0){
+
+        if (edad < 0) {
             System.out.println("Edad incorrecta");
-        }
-        
-        else if (edad <= 2){ // edad < 3
+        } else if (edad <= 2) { // edad < 3
             System.out.println("Bebé");
-        } 
-        
-        else if (edad <= 11){ // edad < 12
+        } else if (edad <= 11) { // edad < 12
             System.out.println("Niño");
-        } 
-        
-        else if (edad <= 17){ // edad < 18
+        } else if (edad <= 17) { // edad < 18
             System.out.println("Adolescente");
-        } 
-        
-        else if (edad <= 64){ // edad < 65
+        } else if (edad <= 64) { // edad < 65
             System.out.println("Adulto");
-        } 
-        
-        else {
+        } else {
             System.out.println("Mayor");
         }
     }

@@ -6,19 +6,19 @@ import java.util.Scanner; // Necesario para usar Scanner
 
 public class Ejercicio02 {
     public static void main(String[] args) {
-		int numero, decenas, centenas;
+        int numero, decenas, centenas;
         Scanner teclado = new Scanner(System.in);
-		decenas = 0;
-		centenas = 0;
-		
-		System.out.println("Escribe un numero entre 0 y 999");
-		numero = teclado.nextInt();
-		
-		centenas = numero / 100;
-		numero = numero - centenas * 100;
-		decenas = numero / 10;
-		numero = numero - decenas * 10;
-		
-		System.out.println("Son " + centenas + " centenas " + decenas + " decenas y " + numero + " unidades");
+        decenas = 0;
+        centenas = 0;
+
+        System.out.println("Escribe un numero entre 0 y 999");
+        numero = teclado.nextInt();
+
+        centenas = numero / 100;
+        numero = numero - centenas * 100;
+        decenas = numero / 10;
+        numero = numero - decenas * 10;
+
+        System.out.println("Son " + centenas + " centenas " + decenas + " decenas y " + numero + " unidades");
     }
 }

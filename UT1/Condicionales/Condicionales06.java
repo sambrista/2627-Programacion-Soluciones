@@ -9,17 +9,19 @@
   y el importe total que deberá pagar el cliente.
 
 */
+
 import java.util.Scanner;
+
 public class Condicionales06 {
     public static void main(String[] args) {
-		double importe, gastosEnvio;
+        double importe, gastosEnvio;
         Scanner sc = new Scanner(System.in);
-		gastosEnvio = 0;
-        
-		System.out.println("Introduce el importe de la compra:");
+        gastosEnvio = 0;
+
+        System.out.println("Introduce el importe de la compra:");
         importe = sc.nextDouble();
 
-		// Como a gastosEnvio ya le di el valor 0, el primer if me lo puedo ahorrar
+        // Como a gastosEnvio ya le di el valor 0, el primer if me lo puedo ahorrar
 		/* 
 		if (importe > 150) {
 			gastosEnvio = 0;
@@ -29,13 +31,13 @@ public class Condicionales06 {
 			gastosEnvio = 10;
 		}
 		*/
-		
-		if (importe >= 75 && importe <= 150) {
-			gastosEnvio = 5;
-		} else if (importe < 75) {
-			gastosEnvio = 10;
-		}
-		System.out.println("Los gastos de envío son: " + gastosEnvio);
-		System.out.println("El importe total es: " + (importe + gastosEnvio) + " euros");
+
+        if (importe >= 75 && importe <= 150) {
+            gastosEnvio = 5;
+        } else if (importe < 75) {
+            gastosEnvio = 10;
+        }
+        System.out.println("Los gastos de envío son: " + gastosEnvio);
+        System.out.println("El importe total es: " + (importe + gastosEnvio) + " euros");
     }
 }

@@ -4,23 +4,24 @@
      Entre 50 y 100 km/h → "Velocidad moderada".
      Más de 100 km/h → "Velocidad alta".
  */
+
 import java.util.Scanner;
 
 public class Condicionales04 {
-    public static void main (String[] args ){
-		double velocidad;
-		Scanner teclado = new Scanner(System.in);
+    public static void main(String[] args) {
+        double velocidad;
+        Scanner teclado = new Scanner(System.in);
 
-		System.out.println("Introduzca la velocidad: ");
-		velocidad = teclado.nextDouble();
-		
-		if (velocidad < 50) {
-			System.out.println("Velocidad baja");
-		} else if (velocidad >= 50 && velocidad <= 100) {
-			System.out.println("Velocidad moderada");
-		} else {
-			System.out.println("Velocidad alta");
-		}
+        System.out.println("Introduzca la velocidad: ");
+        velocidad = teclado.nextDouble();
+
+        if (velocidad < 50) {
+            System.out.println("Velocidad baja");
+        } else if (velocidad >= 50 && velocidad <= 100) {
+            System.out.println("Velocidad moderada");
+        } else {
+            System.out.println("Velocidad alta");
+        }
 		/*
 		if (velocidad < 50) {
 			System.out.println("Velocidad baja");
