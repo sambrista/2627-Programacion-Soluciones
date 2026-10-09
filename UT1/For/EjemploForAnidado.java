@@ -14,8 +14,8 @@ public class EjemploForAnidado {
             }
             // Terminamos la fila
         }
-		// En lugar de i y j, podemos usar nombres más descriptivos
-		for (int numFila = 1; numFila <= numeroFilas; numFila++) {
+        // En lugar de i y j, podemos usar nombres más descriptivos
+        for (int numFila = 1; numFila <= numeroFilas; numFila++) {
             // Empezamos la fila
             for (int numAsiento = 1; numAsiento <= asientosPorFila; numAsiento++) {
                 System.out.println("Fila " + numFila + " asiento " + numAsiento);

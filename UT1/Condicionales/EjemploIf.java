@@ -1,4 +1,7 @@
-
+/*
+   Crea un programa que recoja una nota del 1 al 10 en una variable e
+   imprima "Aprobado" o "Suspenso" según la nota haya alcanzado el 5 o no.
+ */
 
 public class EjemploIf {
     public static void main() {

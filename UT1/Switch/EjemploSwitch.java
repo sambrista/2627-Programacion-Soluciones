@@ -1,3 +1,8 @@
+/*
+   Escribe un programa que recoja un día con un entero e imprima
+   el nombre del día usando la estructura switch. Si introduce
+   un número de día erróneo debes indicar que el día no existe.
+ */
 
 import java.util.Scanner;
 
