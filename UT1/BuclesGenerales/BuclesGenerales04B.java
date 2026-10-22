@@ -13,25 +13,25 @@ import java.util.Scanner;
 
 // Solución que usa booleano
 public class BuclesGenerales04 {
-	public void main() {
-		int numeroSecreto = (int)(Math.random() * 10) + 1;
-		Scanner teclado = new Scanner(System.in);
-		int numero=0, numeroIntentos = 1;
-		boolean hasAcertado = false;
-		
-		while (!hasAcertado && numeroIntentos <= 5) {
-			System.out.print("Introduce un número: ");
-			numero = teclado.nextInt();
-			if (numero==numeroSecreto) {
-				hasAcertado = true;
-			}
-			numeroIntentos++;
-		}
-		
-		if (hasAcertado) {
-			System.out.println("Acertaste tras " + (numeroIntentos-1) + " intentos");
-		} else {
-			System.out.println("Has perdido");
-		}
-	}
+    public static void main() {
+        int numeroSecreto = (int) (Math.random() * 10) + 1;
+        Scanner teclado = new Scanner(System.in);
+        int numero = 0, numeroIntentos = 1;
+        boolean hasAcertado = false;
+
+        while (!hasAcertado && numeroIntentos <= 5) {
+            System.out.print("Introduce un número: ");
+            numero = teclado.nextInt();
+            if (numero == numeroSecreto) {
+                hasAcertado = true;
+            }
+            numeroIntentos++;
+        }
+
+        if (hasAcertado) {
+            System.out.println("Acertaste tras " + (numeroIntentos - 1) + " intentos");
+        } else {
+            System.out.println("Has perdido");
+        }
+    }
 }

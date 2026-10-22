@@ -3,7 +3,7 @@
    texto “TABLA DEL x”, siendo x el número que corresponda.
 */
 public class For05 {
-    public void main() {
+    public static void main() {
 
         for (int numero = 0; numero <= 12; numero++) {
             System.out.println("TABLA DEL " + numero);

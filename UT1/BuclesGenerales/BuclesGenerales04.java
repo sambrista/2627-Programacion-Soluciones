@@ -12,23 +12,23 @@
 import java.util.Scanner;
 
 public class BuclesGenerales04 {
-	public void main() {
-		final int NUMERO_INTENTOS = 5;
-		
-		int numeroSecreto = (int)(Math.random() * 10) + 1;
-		Scanner teclado = new Scanner(System.in);
-		int numero=0, numeroIntentos = 0;
-		
-		do {
-			numeroIntentos++;
-			System.out.print("Introduce un número: ");
-			numero = teclado.nextInt();
-		} while (numero != numeroSecreto && numeroIntentos < NUMERO_INTENTOS)
-		
-		if (numero == numeroSecreto) {
-			System.out.println("Acertaste tras " + (numeroIntentos) + " intentos");
-		} else {
-			System.out.println("Has perdido");
-		}
-	}
+    public static void main() {
+        final int NUMERO_INTENTOS = 5;
+
+        int numeroSecreto = (int) (Math.random() * 10) + 1;
+        Scanner teclado = new Scanner(System.in);
+        int numero = 0, numeroIntentos = 0;
+
+        do {
+            numeroIntentos++;
+            System.out.print("Introduce un número: ");
+            numero = teclado.nextInt();
+        } while (numero != numeroSecreto && numeroIntentos < NUMERO_INTENTOS)
+
+        if (numero == numeroSecreto) {
+            System.out.println("Acertaste tras " + (numeroIntentos) + " intentos");
+        } else {
+            System.out.println("Has perdido");
+        }
+    }
 }

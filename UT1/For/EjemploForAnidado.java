@@ -4,7 +4,7 @@
 import java.util.Scanner;
 
 public class EjemploForAnidado {
-    public void main() {
+    public static void main() {
         int numeroFilas = 3, asientosPorFila = 8;
 
         for (int i = 1; i <= numeroFilas; i++) {

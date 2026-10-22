@@ -12,37 +12,37 @@
 import java.util.Scanner;
 
 public class BuclesGenerales08 {
-	public void main() {
-		
-		double importeTotal = 0, importe = 0;
-		double porcentajeDescuento = 0, importeFinal=0;
-		String tieneDescuento="";
-		Scanner teclado = new Scanner(System.in);
-		
-		System.out.println("=== Simulador de Caja Registradora ===");
-		System.out.println("Introduce precios (0 para terminar): ");
-		
-		do {
-			System.out.print("Precio del producto: ");
-			importe = teclado.nextDouble();
-			if (importe > 0) {
-				System.out.print("¿El producto tiene descuento? (s/n): ");
-				tieneDescuento = teclado.next();
-				if (tieneDescuento.equals("s")) {
-					System.out.print("Porcentaje de descuento): ");
-					porcentajeDescuento = teclado.nextDouble();
-					importeFinal = importe - importe * porcentajeDescuento / 100;
-				} else {
-					porcentajeDescuento = 0;
-					importeFinal = importe;
-				}
-				System.out.println("Precio: " + importe + " € | Descuento " + porcentajeDescuento + " % | Final: " + importeFinal + " €");
-				importeTotal += importeFinal;
-			} else if (importe < 0) {
-				System.out.println("Debe introducir un importe positivo");
-			}
-		} while (importe != 0);
-		
-		System.out.println("El importe total es " + importeTotal);
-	}
+    public static void main() {
+
+        double importeTotal = 0, importe = 0;
+        double porcentajeDescuento = 0, importeFinal = 0;
+        String tieneDescuento = "";
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("=== Simulador de Caja Registradora ===");
+        System.out.println("Introduce precios (0 para terminar): ");
+
+        do {
+            System.out.print("Precio del producto: ");
+            importe = teclado.nextDouble();
+            if (importe > 0) {
+                System.out.print("¿El producto tiene descuento? (s/n): ");
+                tieneDescuento = teclado.next();
+                if (tieneDescuento.equals("s")) {
+                    System.out.print("Porcentaje de descuento): ");
+                    porcentajeDescuento = teclado.nextDouble();
+                    importeFinal = importe - importe * porcentajeDescuento / 100;
+                } else {
+                    porcentajeDescuento = 0;
+                    importeFinal = importe;
+                }
+                System.out.println("Precio: " + importe + " € | Descuento " + porcentajeDescuento + " % | Final: " + importeFinal + " €");
+                importeTotal += importeFinal;
+            } else if (importe < 0) {
+                System.out.println("Debe introducir un importe positivo");
+            }
+        } while (importe != 0);
+
+        System.out.println("El importe total es " + importeTotal);
+    }
 }

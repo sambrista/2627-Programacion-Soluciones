@@ -10,7 +10,7 @@
 import java.util.Scanner;
 
 public class While01 {
-    public void main() {
+    public static void main() {
         int numero = 0;
         Scanner teclado = new Scanner(System.in);
 

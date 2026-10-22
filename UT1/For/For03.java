@@ -2,7 +2,7 @@
  de todos los números del 1 al 200.*/
 
 public class For03 {
-    public void main() {
+    public static void main() {
         int sumaTotal = 0;
         for (int i = 1; i <= 200; i++) {
             sumaTotal = sumaTotal + i;

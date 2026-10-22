@@ -5,7 +5,7 @@
 import java.util.Scanner;
 
 public class For04 {
-    public void main() {
+    public static void main() {
         Scanner sc = new Scanner(System.in);
         int numero = 0;
 

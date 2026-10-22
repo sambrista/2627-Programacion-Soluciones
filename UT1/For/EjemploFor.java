@@ -3,7 +3,7 @@
  */
 
 public class EjemploFor {
-    public void main() {
+    public static void main() {
         int total = 0;
         System.out.println("Inicio");
         for (int i = 0; i < 6; i++) {

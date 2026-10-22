@@ -6,7 +6,7 @@
  */
 
 public class EjemploWhile {
-    public void main() {
+    public static void main() {
         double saldo = 1.15;
 
         while (saldo >= 0.10) {

@@ -13,7 +13,7 @@
 import java.util.Scanner;
 
 public class For06 {
-    public void main() {
+    public static void main() {
         int n = 0;
         Scanner sc = new Scanner(System.in);
 

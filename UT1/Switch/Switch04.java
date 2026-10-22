@@ -25,7 +25,7 @@
 import java.util.Scanner;
 
 public class Switch04 {
-    public void main() {
+    public static void main() {
         // descuento = -1 es un valor imposible
         double importe = 0, descuento = -1, importeDescuento = 0, importeFinal = 0;
         String categoria = "";
