@@ -1,5 +1,5 @@
 public class EjemploFunciones {
-    public static void main() {
+    public void main() {
         System.out.println("Hola");
         imprimirNombre();
         System.out.println("Adios");
@@ -18,18 +18,18 @@ public class EjemploFunciones {
 
     }
 
-    public static void imprimirNombre() {
+    public void imprimirNombre() {
         System.out.println("Mi nombre es Alfonso");
     }
 
-    public static void imprimirAsteriscos(int numeroAsteriscos) {
+    public void imprimirAsteriscos(int numeroAsteriscos) {
         for (int i = 0; i < numeroAsteriscos; i++) {
             System.out.print("*");
         }
         System.out.println("");
     }
 
-    public static int calcularTriple(int numero) {
+    public int calcularTriple(int numero) {
         int resultado;
         if (numero < 0) {
             resultado = 0;
@@ -38,11 +38,11 @@ public class EjemploFunciones {
         return resultado;
     }
 
-    public static int calcularMultiplo(int numero, int veces) {
+    public int calcularMultiplo(int numero, int veces) {
         return numero * veces;
     }
 
-    public static double areaRectangulo(double base, double altura) {
+    public double areaRectangulo(double base, double altura) {
         return base * altura;
     }
 

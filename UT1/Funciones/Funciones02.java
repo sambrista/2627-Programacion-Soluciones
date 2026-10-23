@@ -2,12 +2,12 @@
 // y muestre un saludo personalizado.
 
 public class Funciones02 {
-    public static void main() {
+    public void main() {
         saludar("Alfonso");
         saludar("Teo");
     }
 
-    public static void saludar(String nombre) {
+    public void saludar(String nombre) {
         System.out.println("Hola " + nombre);
     }
 }
