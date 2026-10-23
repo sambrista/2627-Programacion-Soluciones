@@ -3,6 +3,7 @@
 
 public class Funciones02 {
     public void main() {
+		// Código para probar que la función funciona
         saludar("Alfonso");
         saludar("Teo");
     }
