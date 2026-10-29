@@ -2,7 +2,7 @@
 
 public class Funciones01 {
     public void main() {
-		// Código para probar que la función funciona
+        // Código para probar que la función funciona
         mostrarSaludo();
     }
 
