@@ -3,6 +3,7 @@
  vuelve a pedir el número. Cuando introduzca un valor válido, mostrará el número
  introducido y finalizará.
  */
+
 import java.util.Scanner;
 
 public class While03 {
