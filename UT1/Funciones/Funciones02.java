@@ -1,5 +1,11 @@
-// Crea una función que reciba el nombre de una persona
-// y muestre un saludo personalizado.
+/*
+ * ========================================================================
+ *  Funciones02
+ * ========================================================================
+ *  Crea una función que reciba el nombre de una persona y muestre un saludo
+ *  personalizado.
+ * ========================================================================
+ */
 
 public class Funciones02 {
     public void main() {

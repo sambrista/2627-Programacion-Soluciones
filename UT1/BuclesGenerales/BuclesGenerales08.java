@@ -1,13 +1,17 @@
 /*
-  Simulador de caja registradora: Pedir precios correctos (valores positivos)
-  hasta que se introduzca un 0. Devolver el importe de la compra.
-  
-  Mejorar el ejercicio anterior, para que cada vez que se pida un precio,
-  pregunte si tiene descuento o no, si lo tiene, pide el porcentaje de 
-  descuento (entre 0 y 100), se lo aplica y entonces lo añade a 
-  la cuenta final. Imprimir una línea por cada precio, con su importe,
-  el descuento y el precio final. Imprimir una línea de separación.
-*/
+ * ========================================================================
+ *  BuclesGenerales08 - Simulador de caja registradora
+ * ========================================================================
+ *  Pedir precios correctos (valores positivos) hasta que se introduzca un
+ *  0. Devolver el importe de la compra.
+ *
+ *  Mejorar el ejercicio anterior, para que cada vez que se pida un precio,
+ *  pregunte si tiene descuento o no, si lo tiene, pide el porcentaje de
+ *  descuento (entre 0 y 100), se lo aplica y entonces lo añade a la cuenta
+ *  final. Imprimir una línea por cada precio, con su importe, el descuento
+ *  y el precio final. Imprimir una línea de separación.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

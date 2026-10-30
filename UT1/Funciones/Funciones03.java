@@ -1,4 +1,10 @@
-// Escribe una función que reciba dos números enteros y devuelva el mayor.
+/*
+ * ========================================================================
+ *  Funciones03
+ * ========================================================================
+ *  Escribe una función que reciba dos números enteros y devuelva el mayor.
+ * ========================================================================
+ */
 
 public class Funciones03 {
     public void main() {

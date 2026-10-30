@@ -1,11 +1,17 @@
 /*
- * En una asignatura, la nota final se obtiene utilizando los siguientes criterios:
- *   - 30 % de la nota de un primer examen.
- *   - 30 % de la nota de un segundo examen.
- *   - 25 % de un proyecto.
- *   - 15 % de las actividades realizadas en clase.
+ * ========================================================================
+ *  Ejercicio10
+ * ========================================================================
+ *  En una asignatura, la nota final se obtiene utilizando los siguientes
+ *  criterios:
+ *    - 30 % de la nota de un primer examen.
+ *    - 30 % de la nota de un segundo examen.
+ *    - 25 % de un proyecto.
+ *    - 15 % de las actividades realizadas en clase.
  *
- * Escribe un programa que solicite las cuatro calificaciones y calcule y muestre la nota final del estudiante
+ *  Escribe un programa que solicite las cuatro calificaciones y calcule y
+ *  muestre la nota final del estudiante
+ * ========================================================================
  */
 
 import java.util.Scanner;

@@ -1,7 +1,11 @@
 /*
-  Simulador de caja registradora: Pedir precios correctos (valores positivos)
-  hasta que se introduzca un 0. Devolver el importe de la compra. 
-*/
+ * ========================================================================
+ *  BuclesGenerales07 - Simulador de caja registradora
+ * ========================================================================
+ *  Pedir precios correctos (valores positivos) hasta que se introduzca un
+ *  0. Devolver el importe de la compra.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

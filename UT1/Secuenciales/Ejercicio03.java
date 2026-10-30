@@ -1,5 +1,11 @@
-// Diseña un programa que lea cuatro notas con decimales
-// introducidas por el usuario y muestre su media aritmética
+/*
+ * ========================================================================
+ *  Ejercicio03
+ * ========================================================================
+ *  Diseña un programa que lea cuatro notas con decimales introducidas por
+ *  el usuario y muestre su media aritmética
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

@@ -1,11 +1,15 @@
 /*
-    Realiza un programa que muestre un menú para modificar una variable cuyo valor inicial será 5.
-    El menú tendrá las siguientes opciones:
-        Opción 1: Suma 3 al valor de la variable.
-        Opción 2: Multiplica por 2 el valor de la variable.
-        Opción 0: Finaliza el programa.
-    El programa mostrará el valor actualizado después de cada operación y repetirá el menú
-    hasta que el usuario seleccione la opción 0.
+ * ========================================================================
+ *  DoWhile02
+ * ========================================================================
+ *  Realiza un programa que muestre un menú para modificar una variable cuyo
+ *  valor inicial será 5. El menú tendrá las siguientes opciones:
+ *      Opción 1: Suma 3 al valor de la variable.
+ *      Opción 2: Multiplica por 2 el valor de la variable.
+ *      Opción 0: Finaliza el programa.
+ *  El programa mostrará el valor actualizado después de cada operación y
+ *  repetirá el menú hasta que el usuario seleccione la opción 0.
+ * ========================================================================
  */
 
 import java.util.Scanner;

@@ -1,8 +1,13 @@
 /*
- Haz un programa que recoja en una variable el saldo disponible en el móvil
- y mande SMSs hasta quedarse sin saldo suficiente. Los SMS cuestan 10 céntimos.
-
- Simula el envío de SMS imprimiendo el mensaje "Mando un SMS".
+ * ========================================================================
+ *  EjemploWhile
+ * ========================================================================
+ *  Haz un programa que recoja en una variable el saldo disponible en el
+ *  móvil y mande SMSs hasta quedarse sin saldo suficiente. Los SMS cuestan
+ *  10 céntimos.
+ *
+ *  Simula el envío de SMS imprimiendo el mensaje "Mando un SMS".
+ * ========================================================================
  */
 
 public class EjemploWhile {

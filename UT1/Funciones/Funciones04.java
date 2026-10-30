@@ -1,4 +1,10 @@
-// Escribe una función que reciba un número entero y devuelva su cuadrado
+/*
+ * ========================================================================
+ *  Funciones04
+ * ========================================================================
+ *  Escribe una función que reciba un número entero y devuelva su cuadrado
+ * ========================================================================
+ */
 
 public class Funciones04 {
     public void main() {

@@ -1,13 +1,17 @@
 /*
- Clasificación según la edad: Realiza un programa que pida la edad de una persona,
- utilizando únicamente números enteros, y muestre el grupo al que pertenece:
- - Menor de 0 → "Edad incorrecta".
- - De 0 a 2 años → "Bebé".
- - De 3 a 11 años → "Niño".
- - De 12 a 17 años → "Adolescente".
- - De 18 a 64 años → "Adulto".
- - 65 años o más → "Mayor".
- El programa deberá mostrar un mensaje de error cuando la edad introducida sea negativa.
+ * ========================================================================
+ *  Condicionales10 - Clasificación según la edad
+ * ========================================================================
+ *  Realiza un programa que pida la edad de una persona, utilizando
+ *  únicamente números enteros, y muestre el grupo al que pertenece:
+ *  - Menor de 0 → "Edad incorrecta".
+ *  - De 0 a 2 años → "Bebé".
+ *  - De 3 a 11 años → "Niño".
+ *  - De 12 a 17 años → "Adolescente".
+ *  - De 18 a 64 años → "Adulto".
+ *  - 65 años o más → "Mayor". El programa deberá mostrar un mensaje de
+ *    error cuando la edad introducida sea negativa.
+ * ========================================================================
  */
 
 import java.util.Scanner;

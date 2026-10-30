@@ -1,6 +1,10 @@
 /*
-  Número primo: Pedir un número e indicar si es primo o no.
-*/
+ * ========================================================================
+ *  BuclesGenerales05 - Número primo
+ * ========================================================================
+ *  Pedir un número e indicar si es primo o no.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

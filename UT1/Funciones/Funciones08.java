@@ -1,4 +1,10 @@
-// Crea una función que reciba tres números enteros y devuelva su promedio.
+/*
+ * ========================================================================
+ *  Funciones08
+ * ========================================================================
+ *  Crea una función que reciba tres números enteros y devuelva su promedio.
+ * ========================================================================
+ */
 
 public class Funciones08 {
     public void main() {

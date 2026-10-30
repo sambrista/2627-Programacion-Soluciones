@@ -1,6 +1,11 @@
-/* Crea un programa que solicite el radio de una esfera
- (puede tener decimales) y calcule tanto su perímetro 
- como su volumen.*/
+/*
+ * ========================================================================
+ *  Ejercicio06
+ * ========================================================================
+ *  Crea un programa que solicite el radio de una esfera (puede tener
+ *  decimales) y calcule tanto su perímetro como su volumen.
+ * ========================================================================
+ */
 
 import java.util.Scanner; // Necesario para usar Scanner
 

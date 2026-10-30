@@ -1,7 +1,11 @@
 /*
-    Número menor: Realiza un programa que pida dos números enteros
-	y muestre cuál de ellos es el menor. Puedes suponer que los dos
-	números introducidos siempre serán diferentes.
+ * ========================================================================
+ *  Condicionales02 - Número menor
+ * ========================================================================
+ *  Realiza un programa que pida dos números enteros y muestre cuál de ellos
+ *  es el menor. Puedes suponer que los dos números introducidos siempre
+ *  serán diferentes.
+ * ========================================================================
  */
 
 import java.util.Scanner;

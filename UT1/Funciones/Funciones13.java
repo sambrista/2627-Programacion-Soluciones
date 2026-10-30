@@ -1,8 +1,13 @@
 /*
-13. Diseña una función que reciba dos números y un carácter (char)
-    que represente una operación (+, -, *, /) y devuelva el resultado
-    de la operación.
-*/
+ * ========================================================================
+ *  Funciones13
+ * ========================================================================
+ *  Diseña una función que reciba dos números y un carácter (char) que
+ *  represente una operación (+, -, *, /) y devuelva el resultado de la
+ *  operación.
+ * ========================================================================
+ */
+
 public class Funciones13 {
 
     public static double calcular(double a, double b, char operacion) {

@@ -1,5 +1,11 @@
-/* Realiza un programa que calcule y muestre la suma
- de todos los números del 1 al 200.*/
+/*
+ * ========================================================================
+ *  For03
+ * ========================================================================
+ *  Realiza un programa que calcule y muestre la suma de todos los números
+ *  del 1 al 200.
+ * ========================================================================
+ */
 
 public class For03 {
     public static void main() {

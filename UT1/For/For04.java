@@ -1,6 +1,12 @@
-/* Realiza un programa que solicite un número entero y muestre su
- tabla de multiplicar desde el 0 hasta el 12. Por ejemplo, si se
- introduce el número 4:*/
+/*
+ * ========================================================================
+ *  For04
+ * ========================================================================
+ *  Realiza un programa que solicite un número entero y muestre su tabla de
+ *  multiplicar desde el 0 hasta el 12. Por ejemplo, si se introduce el
+ *  número 4:
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

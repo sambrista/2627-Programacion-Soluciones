@@ -1,5 +1,11 @@
-// Crea una función que reciba una cantidad en euros y devuelva su
-// equivalente en dólares (usa una tasa de cambio fija, 1 € = 1,160 $).
+/*
+ * ========================================================================
+ *  Funciones07
+ * ========================================================================
+ *  Crea una función que reciba una cantidad en euros y devuelva su
+ *  equivalente en dólares (usa una tasa de cambio fija, 1 € = 1,160 $).
+ * ========================================================================
+ */
 
 public class Funciones07 {
     public void main() {

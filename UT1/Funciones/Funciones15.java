@@ -1,6 +1,12 @@
 /*
- * funciones15. Crea una función que reciba una frase y devuelva cuántas vocales contiene.
+ * ========================================================================
+ *  Funciones15
+ * ========================================================================
+ *  Crea una función que reciba una frase y devuelva cuántas vocales
+ *  contiene.
+ * ========================================================================
  */
+
 public class Funciones15 {
 
     public int contarVocales(String frase) {

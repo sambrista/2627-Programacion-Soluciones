@@ -1,11 +1,14 @@
 /*
-8. Precio de un aparcamiento: Un aparcamiento utiliza las siguientes tarifas:
-     Hasta 2 horas → 3 €.
-     Más de 2 horas → 3 € más 1,50 € por cada hora adicional.
-   Realiza un programa que pida el número de horas que un vehículo ha permanecido
-   en el aparcamiento y calcule el precio que debe pagar.
-
-*/
+ * ========================================================================
+ *  Condicionales08 - Precio de un aparcamiento
+ * ========================================================================
+ *  Un aparcamiento utiliza las siguientes tarifas:
+ *    Hasta 2 horas → 3 €.
+ *    Más de 2 horas → 3 € más 1,50 € por cada hora adicional.
+ *  Realiza un programa que pida el número de horas que un vehículo ha
+ *  permanecido en el aparcamiento y calcule el precio que debe pagar.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

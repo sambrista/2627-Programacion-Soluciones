@@ -1,9 +1,15 @@
 /*
- * Calendario: Programa que pida un mes, mediante un número entero (1-12),
- * y almacene en una variable “días”, el número de días que tiene el mes (enero -> 31, febrero -> 28, …).
+ * ========================================================================
+ *  Switch02 - Calendario
+ * ========================================================================
+ *  Programa que pida un mes, mediante un número entero (1-12), y almacene
+ *  en una variable “días”, el número de días que tiene el mes (enero -> 31,
+ *  febrero -> 28, …).
  *
- * Al finalizar el programa mostrará un mensaje diciendo el mes y los días que tiene
- * (solo se escribirá una sola línea para imprimir, al final del programa).
+ *  Al finalizar el programa mostrará un mensaje diciendo el mes y los días
+ *  que tiene (solo se escribirá una sola línea para imprimir, al final del
+ *  programa).
+ * ========================================================================
  */
 
 import java.util.Scanner;

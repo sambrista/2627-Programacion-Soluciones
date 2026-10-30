@@ -1,12 +1,14 @@
-/* 
-  Media y recuperación: Realiza un programa que pida las
-  notas de dos pruebas. Las notas pueden tener decimales. 
-  El programa deberá mostrar las dos notas introducidas, 
-  calcular su media aritmética e indicar:
-  
-    - Si la media es 5 o superior → "Asignatura superada".
-    - Si la media es menor que 5 → "Debe recuperar".
-
+/*
+ * ========================================================================
+ *  Condicionales01 - Media y recuperación
+ * ========================================================================
+ *  Realiza un programa que pida las notas de dos pruebas. Las notas pueden
+ *  tener decimales. El programa deberá mostrar las dos notas introducidas,
+ *  calcular su media aritmética e indicar:
+ *
+ *    - Si la media es 5 o superior → "Asignatura superada".
+ *    - Si la media es menor que 5 → "Debe recuperar".
+ * ========================================================================
  */
 
 import java.util.Scanner;

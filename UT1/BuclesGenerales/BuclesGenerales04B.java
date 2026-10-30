@@ -1,13 +1,15 @@
 /*
-  Adivina el número: El programa genera un número aleatorio
-  entre 1 y 10, y el usuario debe adivinarlo. El programa
-  termina cuando acierta o cuando llega al intento 5.
-  Si acierta, muestra el número de intentos hasta acertar y
-  lo indica. Si llega a los 5 intentos sin acertar, dice que has perdido...
- 
-  int numero = (int)(Math.random() * 10) + 1;
-
-*/
+ * ========================================================================
+ *  BuclesGenerales04B - Adivina el número
+ * ========================================================================
+ *  El programa genera un número aleatorio entre 1 y 10, y el usuario debe
+ *  adivinarlo. El programa termina cuando acierta o cuando llega al intento
+ *  5. Si acierta, muestra el número de intentos hasta acertar y lo indica.
+ *  Si llega a los 5 intentos sin acertar, dice que has perdido...
+ *
+ *  int numero = (int)(Math.random() * 10) + 1;
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

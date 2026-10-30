@@ -1,26 +1,29 @@
 /*
-    Descuentos en una tienda de informática: Una tienda aplica un descuento al importe
-    de una compra según la categoría del cliente:
-    | Categoría | Tipo de cliente     | Descuento |
-    |     A     |    Particular       |    5 %    |
-    |     B     |    Estudiante       |    10 %   |
-    |     C     |    Docente          |    15 %   |
-    |     D     |    Centro educativo |    20 %   |
-
-    Crea un programa que solicite el importe de la compra y la categoría del cliente.
-    Utiliza switch para determinar el porcentaje de descuento.
-     - El programa debe calcular y mostrar:
-     - El importe original.
-     - El porcentaje de descuento.
-     - La cantidad descontada.
-     - El importe final que debe pagar el cliente.
-
-    Acepta la categoría tanto en mayúsculas como en minúsculas. Si el importe es negativo
-     o la categoría no existe, muestra un mensaje de error.
-
-    Ejemplo: Para una compra de 200 € y la categoría C, el descuento será de 30 € y el
-    importe final será de 170 €.
-*/
+ * ========================================================================
+ *  Switch04 - Descuentos en una tienda de informática
+ * ========================================================================
+ *  Una tienda aplica un descuento al importe de una compra según la
+ *  categoría del cliente:
+ *  | Categoría | Tipo de cliente | Descuento | | A | Particular | 5 % | | B
+ *  | Estudiante | 10 % | | C | Docente | 15 % | | D | Centro educativo | 20
+ *  % |
+ *
+ *  Crea un programa que solicite el importe de la compra y la categoría del
+ *  cliente. Utiliza switch para determinar el porcentaje de descuento.
+ *   - El programa debe calcular y mostrar:
+ *   - El importe original.
+ *   - El porcentaje de descuento.
+ *   - La cantidad descontada.
+ *   - El importe final que debe pagar el cliente.
+ *
+ *  Acepta la categoría tanto en mayúsculas como en minúsculas. Si el
+ *  importe es negativo
+ *   o la categoría no existe, muestra un mensaje de error.
+ *
+ *  Ejemplo: Para una compra de 200 € y la categoría C, el descuento será de
+ *  30 € y el importe final será de 170 €.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

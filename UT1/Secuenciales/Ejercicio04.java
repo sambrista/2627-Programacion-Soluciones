@@ -1,6 +1,12 @@
-/* Un conductor quiere conocer el consumo medio de su vehículo.
-   Pide los kilómetros recorridos y los litros de combustible consumidos.
-   Calcula y muestra cuántos litros consume el vehículo cada 100 km */
+/*
+ * ========================================================================
+ *  Ejercicio04
+ * ========================================================================
+ *  Un conductor quiere conocer el consumo medio de su vehículo. Pide los
+ *  kilómetros recorridos y los litros de combustible consumidos. Calcula y
+ *  muestra cuántos litros consume el vehículo cada 100 km
+ * ========================================================================
+ */
 
 import java.util.Scanner; // Necesario para usar Scanner
 

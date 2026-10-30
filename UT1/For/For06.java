@@ -1,14 +1,14 @@
 /*
-	Realiza un programa que solicite un número entero positivo n
-	y dibuje un triángulo rectángulo de altura n utilizando asteriscos.
-	
-	Por ejemplo, si se introduce el número 5:
-	*
-	**
-	***
-	****
-	*****
-*/
+ * ========================================================================
+ *  For06
+ * ========================================================================
+ *  Realiza un programa que solicite un número entero positivo n y dibuje un
+ *  triángulo rectángulo de altura n utilizando asteriscos.
+ *
+ *  Por ejemplo, si se introduce el número 5:
+ *  * ** *** **** *****
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

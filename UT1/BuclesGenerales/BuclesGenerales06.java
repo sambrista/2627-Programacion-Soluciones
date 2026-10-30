@@ -1,13 +1,15 @@
 /*
-  Cajero automático: Pedir un número y mostrar cómo se descompone
-  en billetes de 50, 20, 10 y 5 (simulación de un cajero).
-  
-  El importe introducido sólo será admitido si es divisible por 5
-  (por ejemplo 232 euros, no es válido. 235 sí).
-  Si se introduce una cantidad no válida volverá a pedirla,
-  indicando el error.
-
-*/
+ * ========================================================================
+ *  BuclesGenerales06 - Cajero automático
+ * ========================================================================
+ *  Pedir un número y mostrar cómo se descompone en billetes de 50, 20, 10 y
+ *  5 (simulación de un cajero).
+ *
+ *  El importe introducido sólo será admitido si es divisible por 5 (por
+ *  ejemplo 232 euros, no es válido. 235 sí). Si se introduce una cantidad
+ *  no válida volverá a pedirla, indicando el error.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

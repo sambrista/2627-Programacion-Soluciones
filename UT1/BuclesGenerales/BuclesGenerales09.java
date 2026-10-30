@@ -1,14 +1,18 @@
 /*
-  Menú: Programa que pida el radio de una circunferencia, y muestre el siguiente menú de opciones:
-    1. Área de la circunferencia.
-    2. Perímetro de la circunferencia.
-    3. Cambiar valores
-    0. Salir
-
-    Si el usuario introduce cualquier número que no sea 0, 1,  2 o 3, 
-	muestra un mensaje de error, y vuelve a mostrar las opciones.
-
-*/
+ * ========================================================================
+ *  BuclesGenerales09 - Menú
+ * ========================================================================
+ *  Programa que pida el radio de una circunferencia, y muestre el siguiente
+ *  menú de opciones:
+ *  1. Área de la circunferencia.
+ *  2. Perímetro de la circunferencia.
+ *  3. Cambiar valores
+ *  0. Salir
+ *
+ *  Si el usuario introduce cualquier número que no sea 0, 1, 2 o 3, muestra
+ *  un mensaje de error, y vuelve a mostrar las opciones.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

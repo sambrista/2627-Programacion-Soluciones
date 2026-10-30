@@ -1,7 +1,11 @@
-/* 
-  Calculadora 1.0: Algoritmo que lea dos números, calculando y
-  escribiendo el valor de su suma, resta, producto, división.
-*/
+/*
+ * ========================================================================
+ *  Ejercicio09
+ * ========================================================================
+ *  Calculadora 1.0: Algoritmo que lea dos números, calculando y escribiendo
+ *  el valor de su suma, resta, producto, división.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

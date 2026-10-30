@@ -1,5 +1,11 @@
-/* Dado un cine con 3 filas y 8 asientos por fila, escribe todos los
- posibles asientos: (Fila x asiento i) */
+/*
+ * ========================================================================
+ *  EjemploForAnidado
+ * ========================================================================
+ *  Dado un cine con 3 filas y 8 asientos por fila, escribe todos los
+ *  posibles asientos: (Fila x asiento i)
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

@@ -1,7 +1,13 @@
-/* Realiza un programa que muestre todas las tablas de multiplicar
-   del 0 al 12, desde el 0 hasta el 12. Precede cada tabla con el
-   texto “TABLA DEL x”, siendo x el número que corresponda.
-*/
+/*
+ * ========================================================================
+ *  For05
+ * ========================================================================
+ *  Realiza un programa que muestre todas las tablas de multiplicar del 0 al
+ *  12, desde el 0 hasta el 12. Precede cada tabla con el texto “TABLA DEL
+ *  x”, siendo x el número que corresponda.
+ * ========================================================================
+ */
+
 public class For05 {
     public static void main() {
 

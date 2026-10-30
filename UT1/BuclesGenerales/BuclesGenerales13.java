@@ -1,13 +1,17 @@
 /*
-	Pirámide 2: Pirámide centrada: Realiza un algoritmo que 
-	imprima la siguiente pirámide:
-
-		*
-	   ***
-	  *****
-	 ******* 
-	*********
-*/
+ * ========================================================================
+ *  BuclesGenerales13 - Pirámide 2
+ * ========================================================================
+ *  Pirámide centrada: Realiza un algoritmo que
+ *  imprima la siguiente pirámide:
+ *
+ *      *
+ *     ***
+ *    *****
+ *   *******
+ *  *********
+ * ========================================================================
+ */
 
 public class BuclesGenerales13 {
     public static void main() {

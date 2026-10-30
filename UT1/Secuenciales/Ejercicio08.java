@@ -1,11 +1,15 @@
-/* 
-  Una cadena de cines necesita un programa para calcular los
-  ingresos que obtiene en sus salas. Haz un programa que pida
-  el número de filas de la sala, el número de asientos por fila
-  y el precio de la entrada, para luego mostrar la cantidad total
-  que el cine ingresa cuando se llena dicha sala.
-
-  Se supone que todas las filas tienen el mismo número de asientos.
+/*
+ * ========================================================================
+ *  Ejercicio08
+ * ========================================================================
+ *  Una cadena de cines necesita un programa para calcular los ingresos que
+ *  obtiene en sus salas. Haz un programa que pida el número de filas de la
+ *  sala, el número de asientos por fila y el precio de la entrada, para
+ *  luego mostrar la cantidad total que el cine ingresa cuando se llena
+ *  dicha sala.
+ *
+ *  Se supone que todas las filas tienen el mismo número de asientos.
+ * ========================================================================
  */
 
 import java.util.Scanner;

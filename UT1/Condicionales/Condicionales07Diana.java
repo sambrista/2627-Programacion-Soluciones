@@ -1,11 +1,13 @@
 /*
-   Ordenar tres edades: Realiza un programa que pida la edad de tres personas
-   y las muestre ordenadas de mayor a menor. Por ejemplo, si se introducen:
-   - 15, 21, 18
-   El programa deberá mostrar:
-   - 21, 18, 15
-
-*/
+ * ========================================================================
+ *  Condicionales07Diana - Ordenar tres edades
+ * ========================================================================
+ *  Realiza un programa que pida la edad de tres personas y las muestre
+ *  ordenadas de mayor a menor. Por ejemplo, si se introducen:
+ *  - 15, 21, 18 El programa deberá mostrar:
+ *  - 21, 18, 15
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

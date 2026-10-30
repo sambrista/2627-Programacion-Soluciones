@@ -1,8 +1,12 @@
 /*
- * Velocidad del vehículo: Realiza un programa que solicite la velocidad a la que circula un vehículo, expresada en km/h, y muestre uno de los siguientes mensajes:
-     Menos de 50 km/h → "Velocidad baja".
-     Entre 50 y 100 km/h → "Velocidad moderada".
-     Más de 100 km/h → "Velocidad alta".
+ * ========================================================================
+ *  Condicionales04 - Velocidad del vehículo
+ * ========================================================================
+ *  Realiza un programa que solicite la velocidad a la que circula un
+ *  vehículo, expresada en km/h, y muestre uno de los siguientes mensajes:
+ *  Menos de 50 km/h → "Velocidad baja". Entre 50 y 100 km/h → "Velocidad
+ *  moderada". Más de 100 km/h → "Velocidad alta".
+ * ========================================================================
  */
 
 import java.util.Scanner;

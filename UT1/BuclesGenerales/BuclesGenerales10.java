@@ -1,22 +1,30 @@
 /*
-    Una agencia de seguros para automóviles asigna los siguientes costos:
-        Seguros a todos Riesgo (R):
-            Menores de 25 años y menos de dos años de carnet: 1500€
-            Menores de 25 años y más de dos años de carnet: 1200€
-            Más de 25 años y menos de dos años de carnet: 1200€
-            Más de 25 años y más de dos años de carnet: 1000€
-        Seguros a Todo Riesgo con Copago (C):
-            Menores de 25 años y menos de dos años de carnet: 1100€
-            Menores de 25 años y más de dos años de carnet: 900€
-            Más de 25 años y menos de dos años de carnet: 900€
-            Más de 25 años y más de dos años de carnet: 700€
-        Seguros a Terceros (T):
-            Menores de 25 años y menos de dos años de carnet: 70€
-            Menores de 25 años y más de dos años de carnet: 500€
-            Más de 25 años y menos de dos años de carnet: 500€
-            Más de 25 años y más de dos años de carnet: 300€
-    Escribe un programa en Java que pida la edad de la persona (validada entre 1 y 130), los años de carnet (validados entre 0 y 100) y el tipo de seguro que quiere (validado con las opciones: R para todo riesgo, C para Copago y T para terceros), y muestre un texto informando de sus datos y el precio que le corresponde. Mientras los 3 datos no sean válidos el programa no continuará
-
+ * ========================================================================
+ *  BuclesGenerales10
+ * ========================================================================
+ *  Una agencia de seguros para automóviles asigna los siguientes costos:
+ *      Seguros a todos Riesgo (R):
+ *          Menores de 25 años y menos de dos años de carnet: 1500€
+ *          Menores de 25 años y más de dos años de carnet: 1200€
+ *          Más de 25 años y menos de dos años de carnet: 1200€
+ *          Más de 25 años y más de dos años de carnet: 1000€
+ *      Seguros a Todo Riesgo con Copago (C):
+ *          Menores de 25 años y menos de dos años de carnet: 1100€
+ *          Menores de 25 años y más de dos años de carnet: 900€
+ *          Más de 25 años y menos de dos años de carnet: 900€
+ *          Más de 25 años y más de dos años de carnet: 700€
+ *      Seguros a Terceros (T):
+ *          Menores de 25 años y menos de dos años de carnet: 70€
+ *          Menores de 25 años y más de dos años de carnet: 500€
+ *          Más de 25 años y menos de dos años de carnet: 500€
+ *          Más de 25 años y más de dos años de carnet: 300€
+ *  Escribe un programa en Java que pida la edad de la persona (validada
+ *  entre 1 y 130), los años de carnet (validados entre 0 y 100) y el tipo
+ *  de seguro que quiere (validado con las opciones: R para todo riesgo, C
+ *  para Copago y T para terceros), y muestre un texto informando de sus
+ *  datos y el precio que le corresponde. Mientras los 3 datos no sean
+ *  válidos el programa no continuará
+ * ========================================================================
  */
 
 import java.util.Scanner;

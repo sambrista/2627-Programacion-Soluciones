@@ -1,4 +1,11 @@
-// Diseña una función que reciba un número entero y devuelva su valor absoluto
+/*
+ * ========================================================================
+ *  Funciones09
+ * ========================================================================
+ *  Diseña una función que reciba un número entero y devuelva su valor
+ *  absoluto
+ * ========================================================================
+ */
 
 public class Funciones09 {
     public void main() {

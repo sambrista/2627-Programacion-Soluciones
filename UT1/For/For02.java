@@ -1,4 +1,10 @@
-/* Realiza un programa que muestre los números impares del 1 al 25 */
+/*
+ * ========================================================================
+ *  For02
+ * ========================================================================
+ *  Realiza un programa que muestre los números impares del 1 al 25
+ * ========================================================================
+ */
 
 public class For02 {
     public static void main() {

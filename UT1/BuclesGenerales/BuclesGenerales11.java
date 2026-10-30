@@ -1,10 +1,16 @@
 /*
-  Un centro de estadística, está realizando un estudio para encontrar a la persona más alta
-  de una población. Para ello se introducirá por teclado la altura (en centímetros) de cada
-  persona participante en el estudio, (terminando el programa cuando se introduzca -1 como altura).
-  Las personas participantes se identificarán por su nombre (String). Al finalizar el
-  programa mostrará el nombre de la persona más alta y su altura, así como el número de
-  personas que han participado en el estudio.
+ * ========================================================================
+ *  BuclesGenerales11
+ * ========================================================================
+ *  Un centro de estadística, está realizando un estudio para encontrar a la
+ *  persona más alta de una población. Para ello se introducirá por teclado
+ *  la altura (en centímetros) de cada persona participante en el estudio,
+ *  (terminando el programa cuando se introduzca -1 como altura). Las
+ *  personas participantes se identificarán por su nombre (String). Al
+ *  finalizar el programa mostrará el nombre de la persona más alta y su
+ *  altura, así como el número de personas que han participado en el
+ *  estudio.
+ * ========================================================================
  */
 
 import java.util.Scanner;

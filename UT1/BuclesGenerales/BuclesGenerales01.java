@@ -1,7 +1,11 @@
 /*
-  Suma de pares e impares: Pedir al usuario un número N 
-  y mostrar la suma de los pares y de los impares hasta N.
-*/
+ * ========================================================================
+ *  BuclesGenerales01 - Suma de pares e impares
+ * ========================================================================
+ *  Pedir al usuario un número N y mostrar la suma de los pares y de los
+ *  impares hasta N.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

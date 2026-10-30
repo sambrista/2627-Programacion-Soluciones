@@ -1,14 +1,18 @@
 /*
-  Escribe una función que reciba un carácter y determine si es
-  una vocal o una consonante, sin importar si es mayúscula o 
-  minúscula. Ignora tildes, diéresis y otros modificadores. 
-  Usa el tipo de dato char, y la tabla ASCII si lo necesitas.
-
-  Devuelve:
-    0 si es vocal
-    1 si es consonante
-    -1 si no es ni vocal ni consonante.
-*/
+ * ========================================================================
+ *  Funciones10
+ * ========================================================================
+ *  Escribe una función que reciba un carácter y determine si es una vocal o
+ *  una consonante, sin importar si es mayúscula o minúscula. Ignora tildes,
+ *  diéresis y otros modificadores. Usa el tipo de dato char, y la tabla
+ *  ASCII si lo necesitas.
+ *
+ *  Devuelve:
+ *    0 si es vocal
+ *    1 si es consonante
+ *    -1 si no es ni vocal ni consonante.
+ * ========================================================================
+ */
 
 public class Funciones10 {
     public void main() {

@@ -1,6 +1,12 @@
-// Haz un programa que pida la edad de una persona en años
-// y calcule cuántos días ha vivido aproximadamente,
-// suponiendo que todos los años tienen 365 días.
+/*
+ * ========================================================================
+ *  Ejercicio01
+ * ========================================================================
+ *  Haz un programa que pida la edad de una persona en años y calcule
+ *  cuántos días ha vivido aproximadamente, suponiendo que todos los años
+ *  tienen 365 días.
+ * ========================================================================
+ */
 
 import java.util.Scanner; // Necesario para usar Scanner
 

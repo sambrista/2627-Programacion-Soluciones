@@ -1,8 +1,11 @@
 /*
-    Número menor, contemplando el empate: Mejora el programa anterior para
-	que también tenga en cuenta que los dos números introducidos pueden ser
-	iguales. En ese caso deberá mostrar:
-      Los dos números son iguales.
+ * ========================================================================
+ *  Condicionales03 - Número menor, contemplando el empate
+ * ========================================================================
+ *  Mejora el programa anterior para que también tenga en cuenta que los dos
+ *  números introducidos pueden ser iguales. En ese caso deberá mostrar:
+ *    Los dos números son iguales.
+ * ========================================================================
  */
 
 import java.util.Scanner;

@@ -1,4 +1,10 @@
-// Factorial: Calcular el factorial de un número dado por el usuario.
+/*
+ * ========================================================================
+ *  BuclesGenerales03 - Factorial
+ * ========================================================================
+ *  Calcular el factorial de un número dado por el usuario.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

@@ -1,5 +1,11 @@
-// Crea una función que reciba un número entero y devuelva
-// true si es par o false si es impar.
+/*
+ * ========================================================================
+ *  Funciones05
+ * ========================================================================
+ *  Crea una función que reciba un número entero y devuelva true si es par o
+ *  false si es impar.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

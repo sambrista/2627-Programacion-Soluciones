@@ -1,6 +1,11 @@
 /*
-    Pide un número entero entre 1 y 10. Si el número introducido no está en dicho rango, vuelve a
-    pedir el número. Cuando introduzca un valor válido, mostrará el número introducido y finalizará.
+ * ========================================================================
+ *  DoWhile03
+ * ========================================================================
+ *  Pide un número entero entre 1 y 10. Si el número introducido no está en
+ *  dicho rango, vuelve a pedir el número. Cuando introduzca un valor
+ *  válido, mostrará el número introducido y finalizará.
+ * ========================================================================
  */
 
 import java.util.Scanner;

@@ -1,4 +1,11 @@
-// Realiza una función que reciba un número entero y devuelva true si es primo y false si no lo es.
+/*
+ * ========================================================================
+ *  Funciones12
+ * ========================================================================
+ *  Realiza una función que reciba un número entero y devuelva true si es
+ *  primo y false si no lo es.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

@@ -1,4 +1,10 @@
-// Máximo y mínimo: Pedir al usuario 8 números y mostrar el mayor y el menor.
+/*
+ * ========================================================================
+ *  BuclesGenerales02B - Máximo y mínimo
+ * ========================================================================
+ *  Pedir al usuario 8 números y mostrar el mayor y el menor.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

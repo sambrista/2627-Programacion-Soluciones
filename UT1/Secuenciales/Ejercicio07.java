@@ -1,9 +1,13 @@
 /*
- * Realiza un programa que pida el precio de un producto sin IVA
- * y el porcentaje de IVA que se le debe aplicar, expresado en
- * formato decimal (por ejemplo, 0.21 para un 21 %). Calcula y muestra:
- *   - El importe correspondiente al IVA.
- *   - El precio final del producto con IVA incluido.
+ * ========================================================================
+ *  Ejercicio07
+ * ========================================================================
+ *  Realiza un programa que pida el precio de un producto sin IVA y el
+ *  porcentaje de IVA que se le debe aplicar, expresado en formato decimal
+ *  (por ejemplo, 0.21 para un 21 %). Calcula y muestra:
+ *    - El importe correspondiente al IVA.
+ *    - El precio final del producto con IVA incluido.
+ * ========================================================================
  */
 
 import java.util.Scanner;

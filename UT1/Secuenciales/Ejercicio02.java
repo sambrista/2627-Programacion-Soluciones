@@ -1,6 +1,12 @@
-// Pide al usuario un número (sin decimales) entre 0 y 999 e imprime
-// cuantas centenas, decenas y unidades componen el número. Por ejemplo,
-// 234 son 2 centenas, 3 decenas y 4 unidades.
+/*
+ * ========================================================================
+ *  Ejercicio02
+ * ========================================================================
+ *  Pide al usuario un número (sin decimales) entre 0 y 999 e imprime
+ *  cuantas centenas, decenas y unidades componen el número. Por ejemplo,
+ *  234 son 2 centenas, 3 decenas y 4 unidades.
+ * ========================================================================
+ */
 
 import java.util.Scanner; // Necesario para usar Scanner
 

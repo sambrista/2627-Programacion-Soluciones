@@ -1,11 +1,15 @@
 /*
- * Precio de una entrada: Un cine tiene dos tipos de sesiones: normal y 3D.
- * El precio de la entrada depende del tipo de sesión:
- * - Sesión normal → 7 €.
- * - Sesión 3D → 10 €.
- * Además: Si el día es sábado o domingo, se añaden 2 € al precio de la entrada.
- * Realiza un programa que pida el día de la semana y el tipo de sesión.
- * El programa deberá calcular y mostrar el precio final de la entrada.
+ * ========================================================================
+ *  Condicionales09 - Precio de una entrada
+ * ========================================================================
+ *  Un cine tiene dos tipos de sesiones: normal y 3D. El precio de la
+ *  entrada depende del tipo de sesión:
+ *  - Sesión normal → 7 €.
+ *  - Sesión 3D → 10 €. Además: Si el día es sábado o domingo, se añaden 2 €
+ *    al precio de la entrada. Realiza un programa que pida el día de la
+ *    semana y el tipo de sesión. El programa deberá calcular y mostrar el
+ *    precio final de la entrada.
+ * ========================================================================
  */
 
 import java.util.Scanner;

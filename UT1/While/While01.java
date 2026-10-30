@@ -1,11 +1,14 @@
 /*
-  Realiza un programa que solicite un número entero
-  positivo y muestre todos los números desde dicho número
-  hasta el 1, en orden descendente.
-  
-  Por ejemplo, si se introduce el número 6:
-  6 5 4 3 2 1
-*/
+ * ========================================================================
+ *  While01
+ * ========================================================================
+ *  Realiza un programa que solicite un número entero positivo y muestre
+ *  todos los números desde dicho número hasta el 1, en orden descendente.
+ *
+ *  Por ejemplo, si se introduce el número 6:
+ *  6 5 4 3 2 1
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

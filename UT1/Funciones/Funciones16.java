@@ -1,7 +1,12 @@
 /*
- * funciones16. Diseña una función que reciba una cadena y devuelva true si es un
- * palíndromo y false si no lo es.
+ * ========================================================================
+ *  Funciones16
+ * ========================================================================
+ *  Diseña una función que reciba una cadena y devuelva true si es un
+ *  palíndromo y false si no lo es.
+ * ========================================================================
  */
+
 public class Funciones16 {
 
     public boolean esPalindromo(String cadena) {

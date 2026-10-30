@@ -1,16 +1,24 @@
 /*
-	Desarrolla un programa en Java que simule un menú de un Gimnasio Virtual. El menú debe repetirse hasta que el usuario elija salir.
-	Opciones del menú:
-		1. Calcular IMC (Índice de Masa Corporal) y mostrar el Estado de Salud.
-			Para este punto tienes que:
-			Pedir al usuario su peso (en kg) y altura (en metros).
-			Calcular el IMC
-			Clasificar al usuario
-
-		2. Calcular calorías perdidas al correr. 
-			Para este punto tienes que pedir cúantos kilómetros ha pedido y devolver las calorias, suponiendo que cada kilómetro recorrido quema 60 calorías.
-		0. El usuario podrá salir del programa al pulsar el 0.
-*/
+ * ========================================================================
+ *  BuclesGenerales14
+ * ========================================================================
+ *  Desarrolla un programa en Java que simule un menú de un Gimnasio
+ *  Virtual. El menú debe repetirse hasta que el usuario elija salir.
+ *  Opciones del menú:
+ *      1. Calcular IMC (Índice de Masa Corporal) y mostrar el Estado de
+ *         Salud.
+ *          Para este punto tienes que:
+ *          Pedir al usuario su peso (en kg) y altura (en metros).
+ *          Calcular el IMC
+ *          Clasificar al usuario
+ *
+ *      2. Calcular calorías perdidas al correr.
+ *          Para este punto tienes que pedir cúantos kilómetros ha pedido y
+ *          devolver las calorias, suponiendo que cada kilómetro recorrido
+ *          quema 60 calorías.
+ *      0. El usuario podrá salir del programa al pulsar el 0.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

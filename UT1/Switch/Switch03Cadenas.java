@@ -1,11 +1,15 @@
 /*
- * Calculadora: Crea un programa que pida al usuario dos números (que pueden tener decimales) y
- * ofrezca al usuario cuatro opciones:
- * - Sumar
- * - Restar
- * - Multiplicar
- * - Dividir
- * Según lo que el usuario elija, mostrar la operación matemática que corresponde y su resultado.
+ * ========================================================================
+ *  Switch03Cadenas - Calculadora
+ * ========================================================================
+ *  Crea un programa que pida al usuario dos números (que pueden tener
+ *  decimales) y ofrezca al usuario cuatro opciones:
+ *  - Sumar
+ *  - Restar
+ *  - Multiplicar
+ *  - Dividir Según lo que el usuario elija, mostrar la operación matemática
+ *    que corresponde y su resultado.
+ * ========================================================================
  */
 
 import java.util.Scanner;

@@ -1,5 +1,11 @@
-/* Pide dos números enteros al usuario e imprime sus valores
-   antes y después de intercambiarlos. */
+/*
+ * ========================================================================
+ *  Ejercicio05
+ * ========================================================================
+ *  Pide dos números enteros al usuario e imprime sus valores antes y
+ *  después de intercambiarlos.
+ * ========================================================================
+ */
 
 import java.util.Scanner; // Necesario para usar Scanner
 

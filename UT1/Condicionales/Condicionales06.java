@@ -1,14 +1,18 @@
-/* 
-  Gastos de envío: Una tienda cobra los siguientes gastos de envío dependiendo del importe de una compra:
-  
-  - Compra superior a 150 € → envío gratuito.
-  - Compra entre 75 € y 150 € → 5 € de gastos de envío.
-  - Compra inferior a 75 € → 10 € de gastos de envío.
-
-  Realiza un programa que pida el importe de la compra y muestre los gastos de envío 
-  y el importe total que deberá pagar el cliente.
-
-*/
+/*
+ * ========================================================================
+ *  Condicionales06 - Gastos de envío
+ * ========================================================================
+ *  Una tienda cobra los siguientes gastos de envío dependiendo del importe
+ *  de una compra:
+ *
+ *  - Compra superior a 150 € → envío gratuito.
+ *  - Compra entre 75 € y 150 € → 5 € de gastos de envío.
+ *  - Compra inferior a 75 € → 10 € de gastos de envío.
+ *
+ *  Realiza un programa que pida el importe de la compra y muestre los
+ *  gastos de envío y el importe total que deberá pagar el cliente.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

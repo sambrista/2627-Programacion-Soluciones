@@ -1,4 +1,10 @@
-// Crea una función que muestre por pantalla un saludo.
+/*
+ * ========================================================================
+ *  Funciones01
+ * ========================================================================
+ *  Crea una función que muestre por pantalla un saludo.
+ * ========================================================================
+ */
 
 public class Funciones01 {
     public void main() {

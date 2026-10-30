@@ -1,4 +1,10 @@
-// Imprime los números del 1 al 10 usando un bucle While
+/*
+ * ========================================================================
+ *  EjemploWhile2
+ * ========================================================================
+ *  Imprime los números del 1 al 10 usando un bucle While
+ * ========================================================================
+ */
 
 public class EjemploWhile2 {
     public static void main() {

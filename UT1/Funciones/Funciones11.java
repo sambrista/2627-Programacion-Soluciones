@@ -1,5 +1,11 @@
-// Crea una función que reciba dos números enteros y devuelva la suma de todos los números
-// comprendidos entre ellos (inclusive).
+/*
+ * ========================================================================
+ *  Funciones11
+ * ========================================================================
+ *  Crea una función que reciba dos números enteros y devuelva la suma de
+ *  todos los números comprendidos entre ellos (inclusive).
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 

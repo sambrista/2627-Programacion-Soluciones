@@ -1,12 +1,18 @@
 /*
- * Edades: Haciendo uso de una estructura Switch, programa que pida la nota de un alumno (entre 0 y 10, números enteros), y muestre la calificación asociada en texto, según los siguientes criterios:
- *   - Nota menor que 5 -> Suspenso
- *   - Nota igual a 5 -> Aprobado
- *   - Nota igual a 6 -> Bien
- *   - Nota igual a 7 u 8 -> Notable
- *   - Nota igual a 9 -> Sobresaliente
- *   - Nota igual a 10 -> Matrícula
- *   - Cualquier otro valor -> mensaje de error
+ * ========================================================================
+ *  Switch01 - Edades
+ * ========================================================================
+ *  Haciendo uso de una estructura Switch, programa que pida la nota de un
+ *  alumno (entre 0 y 10, números enteros), y muestre la calificación
+ *  asociada en texto, según los siguientes criterios:
+ *  - Nota menor que 5 -> Suspenso
+ *  - Nota igual a 5 -> Aprobado
+ *  - Nota igual a 6 -> Bien
+ *  - Nota igual a 7 u 8 -> Notable
+ *  - Nota igual a 9 -> Sobresaliente
+ *  - Nota igual a 10 -> Matrícula
+ *  - Cualquier otro valor -> mensaje de error
+ * ========================================================================
  */
 
 import java.util.Scanner;
