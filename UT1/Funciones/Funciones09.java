@@ -10,7 +10,7 @@
 public class Funciones09 {
     public void main() {
         System.out.println(valorAbsoluto(5));
-        System.out.println(valorAbsoluto(-5);
+        System.out.println(valorAbsoluto(-5));
     }
 
     public int valorAbsoluto(int numero) {
