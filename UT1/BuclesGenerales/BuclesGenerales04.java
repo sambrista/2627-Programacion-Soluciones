@@ -25,7 +25,7 @@ public class BuclesGenerales04 {
             numeroIntentos++;
             System.out.print("Introduce un número: ");
             numero = teclado.nextInt();
-        } while (numero != numeroSecreto && numeroIntentos < NUMERO_INTENTOS)
+        } while (numero != numeroSecreto && numeroIntentos < NUMERO_INTENTOS);
 
         if (numero == numeroSecreto) {
             System.out.println("Acertaste tras " + (numeroIntentos) + " intentos");
