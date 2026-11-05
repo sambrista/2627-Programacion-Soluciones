@@ -11,18 +11,29 @@ public class Funciones15 {
 
     public int contarVocales(String frase) {
         int contador = 0;
-        frase = frase.toLowerCase();
+        char letra;
 
         for (int i = 0; i < frase.length(); i++) {
-            char letra = frase.charAt(i);
-            switch (letra) {
-                case 'a', 'e', 'i', 'o', 'u',
-                     'á', 'é', 'í', 'ó', 'ú', 'ü':
+            letra = frase.charAt(i);
+            if (esVocalMinuscula(convertirAMinuscula(letra))) {
                     contador++;
-                    break;
             }
         }
         return contador;
+    }
+    public boolean esVocalMinuscula(char caracter) {
+        return caracter == 'a' || caracter == 'e' || caracter == 'i' || caracter == 'o' || caracter == 'u';
+    }
+    public char convertirAMinuscula(char caracter) {
+        char resultado = caracter;
+        if (esMayuscula(resultado)) {
+            resultado += 32; // Transformar mayúscula a minúscula
+        }
+        return resultado;
+    }
+
+    public boolean esMayuscula(char caracter) {
+        return caracter >= 'A' && caracter <= 'Z';
     }
 
     public void main() {
