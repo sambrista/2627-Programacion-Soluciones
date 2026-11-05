@@ -59,7 +59,7 @@ public class BuclesGenerales10 {
 
         do {
             System.out.print("Tipo de seguro (R: todo riesgo, C: copago, T: terceros): ");
-            tipoSeguro = teclado.next().toUpperCase();
+            tipoSeguro = teclado.next();
 
             if (!tipoSeguro.equals("R")
                     && !tipoSeguro.equals("C")
