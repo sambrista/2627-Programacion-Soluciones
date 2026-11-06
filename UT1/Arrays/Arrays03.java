@@ -1,16 +1,22 @@
 /*
- * ==========
- * Arrays03
- * ==========
- * Escribe un programa que pida 10 números enteros por teclado, los almacene en un array, y a continuación muestre un menú en el que permita:
-- Mostrar esos elementos.
-- Mostrar esos elementos en orden inverso al que fueron introducidos.
-- Comprobar si un número existe. Si existe se mostrará la posición del número en el array, y si no existe lo indicará.
-- Consultar cuál es el máximo y el mínimo, y en qué posición están.
-- Consultar cuántos números superan un valor concreto.
-
-Se debe implementar mediante funciones. En el caso de la búsqueda, la función deberá devolver -1 si el elemento no existe. Las funciones para localizar un número, obtener la posición, calcular el mínimo o el máximo… deben devolver valores, no imprimirlos.
- * ==========
+ * ========================================================================
+ *  Arrays03
+ * ========================================================================
+ *  Escribe un programa que pida 10 números enteros por teclado, los
+ *  almacene en un array, y a continuación muestre un menú en el que
+ *  permita:
+ *    - Mostrar esos elementos.
+ *    - Mostrar esos elementos en orden inverso al que fueron introducidos.
+ *    - Comprobar si un número existe. Si existe se mostrará la posición
+ *      del número en el array, y si no existe lo indicará.
+ *    - Consultar cuál es el máximo y el mínimo, y en qué posición están.
+ *    - Consultar cuántos números superan un valor concreto.
+ *
+ *  Se debe implementar mediante funciones. En el caso de la búsqueda, la
+ *  función deberá devolver -1 si el elemento no existe. Las funciones
+ *  para localizar un número, obtener la posición, calcular el mínimo o el
+ *  máximo… deben devolver valores, no imprimirlos.
+ * ========================================================================
  */
 
 import java.util.Scanner;

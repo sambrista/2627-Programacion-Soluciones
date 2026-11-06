@@ -1,9 +1,13 @@
 /*
- * ==========
- * Arrays01
- * ==========
- * Escribe un programa que pida al usuario cuántos alumnos tiene un grupo. Después debe pedir las notas de cada alumno de ese grupo usando una estructura adecuada. El programa debe mostrar las notas introducidas, la media de todas las notas, la nota más alta y la nota más baja.
- * ==========
+ * ========================================================================
+ *  Arrays01
+ * ========================================================================
+ *  Escribe un programa que pida al usuario cuántos alumnos tiene un
+ *  grupo. Después debe pedir las notas de cada alumno de ese grupo usando
+ *  una estructura adecuada. El programa debe mostrar las notas
+ *  introducidas, la media de todas las notas, la nota más alta y la nota
+ *  más baja.
+ * ========================================================================
  */
 
 import java.util.Scanner;

@@ -1,9 +1,15 @@
-/* 
-Programa que pida horas, minutos y segundos, y devuelva el número de segundos correspondientes. 
-Cuando se pida cada valor el programa comprobará si el número es mayor que 0, si no lo es vuelve a pedirlo.
-Realizar una función para calcular los segundos (que reciba horas, minutos y segundos)
- y otra función que devuelva true si el número que recibe es mayor que 0 y false en caso contrario.
-*/
+/*
+ * ========================================================================
+ *  Funciones24
+ * ========================================================================
+ *  Programa que pida horas, minutos y segundos, y devuelva el número de
+ *  segundos correspondientes. Cuando se pida cada valor el programa
+ *  comprobará si el número es mayor que 0, si no lo es vuelve a pedirlo.
+ *  Realizar una función para calcular los segundos (que reciba horas,
+ *  minutos y segundos) y otra función que devuelva true si el número que
+ *  recibe es mayor que 0 y false en caso contrario.
+ * ========================================================================
+ */
 
 public class Funciones24 {
 	

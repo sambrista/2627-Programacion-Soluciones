@@ -1,17 +1,22 @@
 /*
-23. Realiza un programa organizado en funciones que tenga las siguientes opciones:
-    1. Función que recibe dos enteros y devuelve el mayor.
-    2. Función que recibe 3 números y devuelve el menor.
-    3. Función que recibe un número decimal y devuelve su parte entera.
-    4. Función que recibe un número decimal y devuelve su parte decimal.
-    5. Función que compara dos números, devuelve true si son iguales,
-       false si no lo son.
-    6. Función que calcula la potencia (recibe la base y el exponente).
-    7. Función que recibe un carácter y devuelve true si es una letra
-       y false si es otro carácter.
-    8. Calcular menor de 2 letras: Función que recibe 2 letras
-       y devuelve la menor.
-*/
+ * ========================================================================
+ *  Funciones23
+ * ========================================================================
+ *  Realiza un programa organizado en funciones que tenga las siguientes
+ *  opciones:
+ *    1. Función que recibe dos enteros y devuelve el mayor.
+ *    2. Función que recibe 3 números y devuelve el menor.
+ *    3. Función que recibe un número decimal y devuelve su parte entera.
+ *    4. Función que recibe un número decimal y devuelve su parte decimal.
+ *    5. Función que compara dos números, devuelve true si son iguales,
+ *       false si no lo son.
+ *    6. Función que calcula la potencia (recibe la base y el exponente).
+ *    7. Función que recibe un carácter y devuelve true si es una letra
+ *       y false si es otro carácter.
+ *    8. Calcular menor de 2 letras: Función que recibe 2 letras
+ *       y devuelve la menor.
+ * ========================================================================
+ */
 
 import java.util.Scanner;
 import java.util.InputMismatchException;
