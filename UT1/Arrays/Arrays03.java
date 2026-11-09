@@ -28,7 +28,7 @@ public class Arrays03 {
 		int opcion;
 		int elementoABuscar, posicionNumero;
 		int elementoMaximo, elementoMinimo;
-		int valorASuperar;
+		int valorASuperar, cuantosSuperanValor;
 		int[] numeros = new int[TAMANO];
 		
 		pedirArrayEnteros(numeros,"Introduce un entero: ", "Debes introducir un número sin decimales");
@@ -60,7 +60,8 @@ public class Arrays03 {
 					break;
 				case 5:
 					valorASuperar = pideEntero("Introduce un valor a superar: ", "Debes introducir un número entero");
-					System.out.println("La cantidad de elementos que superan " + valorASuperar + " es " + contarMayores(numeros, valorASuperar));
+					cuantosSuperanValor = contarMayores(numeros, valorASuperar);
+					System.out.println("La cantidad de elementos que superan " + valorASuperar + " es " + cuantosSuperanValor);
 					break;
 				case 0:
 					System.out.println("Adios");
