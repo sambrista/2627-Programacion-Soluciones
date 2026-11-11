@@ -11,6 +11,9 @@
  * ========================================================================
  */
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class Funciones24 {
 	
 	public int pidePositivo(String mensaje, String mensajeError) {
@@ -47,7 +50,7 @@ public class Funciones24 {
 		return entero;
 	}
 	
-	public segundosTotales(int horas, int minutos, int segundos) {
+	public int segundosTotales(int horas, int minutos, int segundos) {
 		return horas * 3600 + minutos * 60 + segundos;
 	}
 	
