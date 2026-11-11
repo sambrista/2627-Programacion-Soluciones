@@ -27,13 +27,15 @@ public class Arrays03 {
 		final int TAMANO = 10;
 		int opcion;
 		int elementoABuscar, posicionNumero;
+		int elementoMaximo, elementoMinimo;
+		int valorASuperar, cuantosSuperanValor;
 		int[] numeros = new int[TAMANO];
 		
 		pedirArrayEnteros(numeros,"Introduce un entero: ", "Debes introducir un número sin decimales");
 		
 		do {
 			imprimirMenu();
-			opcion = pideEnteroAcotado("Escoge una opción (0-3): ", "Debes escoger una opción válida", 0, 3);
+			opcion = pideEnteroAcotado("Escoge una opción (0-5): ", "Debes escoger una opción válida", 0, 5);
 			switch (opcion) {
 				case 1:
 					imprimirArrayEnteros(numeros);
@@ -42,13 +44,24 @@ public class Arrays03 {
 					imprimirArrayEnterosInverso(numeros);
 					break;
 				case 3:
-					elementoABuscar = pideEntero("Introduce un número a buscar", "Debes introducir un entero");
+					elementoABuscar = pideEntero("Introduce un número a buscar: ", "Debes introducir un entero");
 					posicionNumero = buscarEntero(numeros, elementoABuscar);
 					if (posicionNumero == -1) {
 						System.out.println("El número no está en el array");
 					} else {
-						System.out.println("El elemento está en la posición " + posicionNumero);
+						System.out.println("El elemento está en la posición " + (posicionNumero + 1));
 					}
+					break;
+				case 4:
+					elementoMinimo = minimo(numeros);
+					System.out.println("El mínimo es " + elementoMinimo + " y está en la posición " + (buscarEntero(numeros, elementoMinimo) + 1));
+					elementoMaximo = maximo(numeros);
+					System.out.println("El máximo es " + elementoMaximo + " y está en la posición " + (buscarEntero(numeros, elementoMaximo) + 1));
+					break;
+				case 5:
+					valorASuperar = pideEntero("Introduce un valor a superar: ", "Debes introducir un número entero");
+					cuantosSuperanValor = contarMayores(numeros, valorASuperar);
+					System.out.println("La cantidad de elementos que superan " + valorASuperar + " es " + cuantosSuperanValor);
 					break;
 				case 0:
 					System.out.println("Adios");
@@ -56,8 +69,18 @@ public class Arrays03 {
 			}
 		} while (opcion != 0);
 	}
-	
-	public void imprimirArrayEnterosInverso(int[] array) {
+
+    private int contarMayores(int[] array, int valorASuperar) {
+        int contador = 0;
+		for (int i = 0; i < array.length; i++) {
+			if (array[i] > valorASuperar) {
+				contador++;
+			}
+		}
+		return contador;
+    }
+
+    public void imprimirArrayEnterosInverso(int[] array) {
 		for (int i = (array.length-1); i>=0; i--) {
 			System.out.println(array[i]);
 		}
@@ -74,6 +97,8 @@ public class Arrays03 {
 		System.out.println("1: Mostrar elementos");
 		System.out.println("2: Mostrar elementos en orden inverso");
 		System.out.println("3: Buscar un elemento");
+		System.out.println("4: Consultar máximo y mínimo");
+		System.out.println("5: Consultar elementos mayores de un valor dado");
 		System.out.println("\n0: Mostrar elementos");
 	}
 	
@@ -85,6 +110,26 @@ public class Arrays03 {
 			}
 		}
 		return posicion;
+	}
+
+	public int maximo(int[] array) {
+		int valorMasAlto=array[0];
+		for (int i = 1; i < array.length; i++) {
+			if (array[i] > valorMasAlto) {
+				valorMasAlto = array[i];
+			}
+		}
+		return valorMasAlto;
+	}
+
+	public int minimo(int[] array) {
+		int valorMasBajo=array[0];
+		for (int i = 1; i < array.length; i++) {
+			if (array[i] < valorMasBajo) {
+				valorMasBajo = array[i];
+			}
+		}
+		return valorMasBajo;
 	}
 	
 	public void pedirArrayEnteros(int[] array, String mensaje, String mensajeError) {
