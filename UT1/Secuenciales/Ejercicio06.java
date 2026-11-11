@@ -20,7 +20,7 @@ public class Ejercicio06 {
         System.out.println("Introduce el radio");
         radio = teclado.nextFloat();
         perimetro = 2 * pi * radio;
-        volumen = (4.0 / 3.0) * pi * radio * radio * radio;
+        volumen = (4.0f / 3.0f) * pi * radio * radio * radio;
         System.out.println("El perímetro es " + perimetro + " y el volumen es " + volumen);
 
     }

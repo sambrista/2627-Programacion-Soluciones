@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 
-public class BuclesGenerales05B {
+public class BuclesGenerales05C {
     public static void main() {
         int numero = 0, numeroDivisor = 2;
         boolean esPrimo = true;

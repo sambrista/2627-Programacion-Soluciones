@@ -14,7 +14,7 @@ public class While02 {
         int contador = 0;
         int sumaTotal = 0;
 
-        while ((sumatotal + 2) <= 10000) {
+        while ((sumaTotal + 2) <= 10000) {
             contador++;
             sumaTotal += 2;
         }

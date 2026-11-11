@@ -14,7 +14,7 @@
 import java.util.Scanner;
 
 // Solución que usa booleano
-public class BuclesGenerales04 {
+public class BuclesGenerales04B {
     public static void main() {
         int numeroSecreto = (int) (Math.random() * 10) + 1;
         Scanner teclado = new Scanner(System.in);

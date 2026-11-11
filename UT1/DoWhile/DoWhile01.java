@@ -18,7 +18,7 @@ public class DoWhile01 {
             contador++;
             sumaTotal += 2;
         }
-        while ((sumatotal + 2) <= 10000);
+        while ((sumaTotal + 2) <= 10000);
         System.out.println("La suma total es: " + sumaTotal);
         System.out.println("Se han sumado " + contador + " números");
     }

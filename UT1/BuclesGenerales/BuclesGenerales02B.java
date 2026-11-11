@@ -9,7 +9,7 @@
 import java.util.Scanner;
 
 // Solución que pide primero el número , y luego da las 8 vueltas restantes
-public class BuclesGenerales02 {
+public class BuclesGenerales02B {
     public static void main() {
         int numeroMayor = 0, numeroMenor = 0, numero = 0;
         Scanner teclado = new Scanner(System.in);
