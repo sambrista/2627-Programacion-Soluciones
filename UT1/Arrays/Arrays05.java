@@ -41,7 +41,7 @@ public class Arrays05 {
 
     // El +1 permite que también se genere el límite superior.
     // Se utiliza con limites ordenados y rangos pequeños, como 0 y 9.
-    private int generarAleatorio(int minimo, int maximo) {
+    public int generarAleatorio(int minimo, int maximo) {
         int numero = (int) (Math.random() * (maximo - minimo + 1)) + minimo;
         return numero;
     }
