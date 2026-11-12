@@ -17,6 +17,10 @@ public class BuclesGenerales05C {
         System.out.print("Introduce un número: ");
         numero = teclado.nextInt();
 
+        if (numero <= 1) {
+            esPrimo = false;
+        }
+
         while (numeroDivisor < numero && esPrimo) {
             if (numero % numeroDivisor == 0) {
                 esPrimo = false;

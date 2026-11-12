@@ -2,7 +2,7 @@ public class EjemploFunciones {
     public void main() {
         System.out.println("Hola");
         imprimirNombre();
-        System.out.println("Adios");
+        System.out.println("Adiós");
         imprimirAsteriscos(1);
         imprimirAsteriscos(2);
         imprimirAsteriscos(3);

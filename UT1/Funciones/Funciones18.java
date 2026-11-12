@@ -15,7 +15,7 @@ public class Funciones18 {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Introduce un número entero: ");
 		numero = sc.nextInt();
-		System.out.println("Son " + cantidadDigitos(numero) + " digitos");
+		System.out.println("Son " + cantidadDigitos(numero) + " dígitos");
 	}
 	
 	public int cantidadDigitos(int numero){

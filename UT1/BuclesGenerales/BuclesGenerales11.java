@@ -31,7 +31,7 @@ public class BuclesGenerales11 {
 
             System.out.println("Ingrese la altura de la persona:");
             altura = sc.nextInt();
-            sc.nextLine(); //para evitar guardar el salto de linea la siguiente vez que pida una cadena
+            sc.nextLine(); //para evitar guardar el salto de línea la siguiente vez que pida una cadena
 
             if (altura == -1) { //cuando quiere dejar de introducir datos
                 quiereSalir = true;
@@ -46,7 +46,7 @@ public class BuclesGenerales11 {
             }
         } while (!quiereSalir);
 
-        System.out.println("El nombre de la persona mas alta:" + nombrePersonaMasAlta);
+        System.out.println("El nombre de la persona más alta:" + nombrePersonaMasAlta);
         System.out.printf("Su altura es: " + alturaMaxima);
         System.out.println("Se han introducido: " + cont + " datos.");
 

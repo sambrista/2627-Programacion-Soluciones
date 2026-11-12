@@ -2,7 +2,7 @@
 
 INICIO
   DEFINE kilometros, litros, resultado COMO FLOAT
-  ESCRIBIR "Cuantos kilometros has recorrido?"
+  ESCRIBIR "¿Cuántos kilómetros has recorrido?"
   LEER kilometros
   ESCRIBIR "¿Cuántos litros has gastado?"
   LEER litros

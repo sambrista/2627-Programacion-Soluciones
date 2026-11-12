@@ -10,11 +10,11 @@
 public class Funciones06 {
     public void main() {
         double temperaturaCelsius = 37;
-        double temperaturaFarenheit = celsiusAFarenheit(temperaturaCelsius);
-        System.out.println(temperaturaCelsius + " ºC = " + temperaturaFarenheit + " ºF");
+        double temperaturaFahrenheit = celsiusAFahrenheit(temperaturaCelsius);
+        System.out.println(temperaturaCelsius + " ºC = " + temperaturaFahrenheit + " ºF");
     }
 
-    public double celsiusAFarenheit(double temperaturaCelsius) {
+    public double celsiusAFahrenheit(double temperaturaCelsius) {
         return temperaturaCelsius * (9.0 / 5.0) + 32.0;
     }
 }

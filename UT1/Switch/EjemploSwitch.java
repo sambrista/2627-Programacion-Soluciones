@@ -15,7 +15,7 @@ public class EjemploSwitch {
         int dia;
         Scanner teclado = new Scanner(System.in);
 
-        System.out.println("Una semana tiene 7 días, el sábado es el día 6 y el domingo día 7. Qué día quieres reservar (Del 1 al 5 es lunes a viernes, el 6 y 7 es sábado y domingo) ?");
+        System.out.println("Una semana tiene 7 días, el sábado es el día 6 y el domingo día 7. ¿Qué día quieres reservar (del 1 al 5 es lunes a viernes, el 6 y 7 es sábado y domingo)?");
         dia = teclado.nextInt();
 
         switch (dia) {
@@ -26,7 +26,7 @@ public class EjemploSwitch {
                 System.out.println("Has escogido el martes");
                 break;
             case 3:
-                System.out.println("Has escogido el miercoles");
+                System.out.println("Has escogido el miércoles");
                 break;
             case 4:
                 System.out.println("Has escogido el jueves");
@@ -35,7 +35,7 @@ public class EjemploSwitch {
                 System.out.println("Has escogido el viernes");
                 break;
             case 6:
-                System.out.println("Has escogido el sabado");
+                System.out.println("Has escogido el sábado");
                 break;
             case 7:
                 System.out.println("Has escogido el domingo");

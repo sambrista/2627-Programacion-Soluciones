@@ -68,7 +68,7 @@ public class Arrays04 {
 					}
 					break;
 				case 0:
-					System.out.println("Adios");
+					System.out.println("Adiós");
 					break;
 			}
 		} while (opcion != 0);
@@ -109,7 +109,7 @@ public class Arrays04 {
 	}
 	
 	public void imprimirMenu() {
-		System.out.println("\nMENU:");
+		System.out.println("\nMENÚ:");
 		System.out.println("1: Mostrar elementos");
 		System.out.println("2: Mostrar elementos en orden inverso");
 		System.out.println("3: Buscar un elemento");

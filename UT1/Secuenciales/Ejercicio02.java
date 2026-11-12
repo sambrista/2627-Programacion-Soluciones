@@ -3,7 +3,7 @@
  *  Ejercicio02
  * ========================================================================
  *  Pide al usuario un número (sin decimales) entre 0 y 999 e imprime
- *  cuantas centenas, decenas y unidades componen el número. Por ejemplo,
+ *  cuántas centenas, decenas y unidades componen el número. Por ejemplo,
  *  234 son 2 centenas, 3 decenas y 4 unidades.
  * ========================================================================
  */
@@ -17,7 +17,7 @@ public class Ejercicio02 {
         decenas = 0;
         centenas = 0;
 
-        System.out.println("Escribe un numero entre 0 y 999");
+        System.out.println("Escribe un número entre 0 y 999");
         numero = teclado.nextInt();
 
         centenas = numero / 100;

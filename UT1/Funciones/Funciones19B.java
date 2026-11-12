@@ -21,7 +21,7 @@ public class Funciones19B {
 		do {
 			imprimirMenu();
 			
-			System.out.print("Introduce una opcion (0-2): ");
+			System.out.print("Introduce una opción (0-2): ");
 			opcion = teclado.nextInt();
 			
 			gestionarOpcion(opcion);
@@ -31,8 +31,8 @@ public class Funciones19B {
 	}
 	
 	public void imprimirMenu() {
-		System.out.println("MENU:");
-		System.out.println("1. Convertir a Farenheit");
+		System.out.println("MENÚ:");
+		System.out.println("1. Convertir a Fahrenheit");
 		System.out.println("2. Convertir a Celsius");
 		System.out.println("");
 		System.out.println("0. Salir");
@@ -47,12 +47,12 @@ public class Funciones19B {
 			case 1:
 				System.out.print("Introduce la temperatura en Celsius: ");
 				temperatura = teclado.nextDouble();
-				System.out.println("La temperatura en Farenheit es: " + celsiusAFarenheit(temperatura));
+				System.out.println("La temperatura en Fahrenheit es: " + celsiusAFahrenheit(temperatura));
 				break;
 			case 2:
-				System.out.print("Introduce la temperatura en Farenheit: ");
+				System.out.print("Introduce la temperatura en Fahrenheit: ");
 				temperatura = teclado.nextDouble();
-				System.out.println("La temperatura en Celsius es: " + farenheitACelsius(temperatura));
+				System.out.println("La temperatura en Celsius es: " + fahrenheitACelsius(temperatura));
 				break;
 			case 0:
 				System.out.println("Gracias por usar este programa");
@@ -62,11 +62,11 @@ public class Funciones19B {
 		}
 	}
 	
-	public double celsiusAFarenheit(double temperaturaCelsius) {
+	public double celsiusAFahrenheit(double temperaturaCelsius) {
         return temperaturaCelsius * (9.0 / 5.0) + 32;
     }
 	
-	public double farenheitACelsius(double temperaturaFarenheit) {
-        return (temperaturaFarenheit - 32) * (5.0 / 9.0);
+	public double fahrenheitACelsius(double temperaturaFahrenheit) {
+	        return (temperaturaFahrenheit - 32) * (5.0 / 9.0);
     }
 }

@@ -26,6 +26,10 @@ public class Funciones12 {
     public boolean esPrimo(int numero) {
         boolean siEsPrimo = true;
 
+        if (numero <= 1) {
+            siEsPrimo = false;
+        }
+
         for (int i = 2; i < numero && siEsPrimo; i++) {
             if (numero % i == 0) {
                 siEsPrimo = false;

@@ -27,7 +27,7 @@ public class BuclesGenerales09 {
         radio = teclado.nextDouble();
 
         do {
-            System.out.println("Menu");
+            System.out.println("Menú");
             System.out.println("1. Área de la circunferencia");
             System.out.println("2. Perímetro de la circunferencia");
             System.out.println("3. Cambiar valores");

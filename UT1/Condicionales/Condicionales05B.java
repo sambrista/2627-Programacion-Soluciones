@@ -5,7 +5,7 @@ public class Condicionales05B {
         int edad, atraccion;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Introduce el tipo de atraccion (1: infantil, 2: familiar, 3: extrema):");
+        System.out.println("Introduce el tipo de atracción (1: infantil, 2: familiar, 3: extrema):");
         atraccion = sc.nextInt();
 
         System.out.println("Introduce tu edad:");

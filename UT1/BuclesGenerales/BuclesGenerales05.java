@@ -17,6 +17,10 @@ public class BuclesGenerales05 {
         System.out.print("Introduce un número: ");
         numero = teclado.nextInt();
 
+        if (numero <= 1) {
+            esPrimo = false;
+        }
+
         for (int i = 2; i < numero && esPrimo; i++) {
             if (numero % i == 0) {
                 esPrimo = false;

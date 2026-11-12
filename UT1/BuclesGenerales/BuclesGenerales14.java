@@ -13,8 +13,8 @@
  *          Clasificar al usuario
  *
  *      2. Calcular calorías perdidas al correr.
- *          Para este punto tienes que pedir cúantos kilómetros ha pedido y
- *          devolver las calorias, suponiendo que cada kilómetro recorrido
+ *          Para este punto tienes que pedir cuántos kilómetros ha pedido y
+ *          devolver las calorías, suponiendo que cada kilómetro recorrido
  *          quema 60 calorías.
  *      0. El usuario podrá salir del programa al pulsar el 0.
  * ========================================================================
@@ -63,7 +63,7 @@ public class BuclesGenerales14 {
                     System.out.println("Las calorías perdidas son " + (kilometros * 60));
                     break;
                 case 0:
-                    System.out.print("Adios");
+                    System.out.print("Adiós");
                     break;
                 default:
                     System.out.println("Debe introducir una opción válida");

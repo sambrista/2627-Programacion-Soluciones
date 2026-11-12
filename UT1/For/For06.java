@@ -17,7 +17,7 @@ public class For06 {
         int n = 0;
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Introduzca el numero de filas: ");
+        System.out.print("Introduzca el número de filas: ");
         n = sc.nextInt();
 
         for (int fila = 1; fila <= n; fila++) {

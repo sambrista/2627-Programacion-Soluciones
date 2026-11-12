@@ -15,24 +15,24 @@ public class Condicionales03 {
         int numero1, numero2;
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Dame un numero");
+        System.out.println("Dame un número");
         numero1 = sc.nextInt();
-        System.out.println("Dame otro numero");
+        System.out.println("Dame otro número");
         numero2 = sc.nextInt();
 
         if (numero1 < numero2) {
-            System.out.println("El numero " + numero1 + " es menor");
+            System.out.println("El número " + numero1 + " es menor");
         } else if (numero1 > numero2) {
-            System.out.println("El numero " + numero2 + " es menor");
+            System.out.println("El número " + numero2 + " es menor");
         } else {
             System.out.println("Los dos números son iguales");
         }
 		/*
 		if (numero1<numero2){
-			System.out.println ("El numero " + numero1 +" es menor");
+			System.out.println ("El número " + numero1 +" es menor");
 		} else {
 			if (numero1 > numero2 ) {
-				System.out.println ("El numero " + numero2 + " es menor");
+				System.out.println ("El número " + numero2 + " es menor");
 			} else {
 				System.out.println ("Los dos números son iguales");
 			}

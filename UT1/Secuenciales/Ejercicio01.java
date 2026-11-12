@@ -22,6 +22,6 @@ public class Ejercicio01 {
         System.out.println("Introduce tu edad en años");
         edad = teclado.nextInt(); // Leemos el dato como int
         dias = edad * 365;
-        System.out.println("Has vivido " + dias + " dias");
+        System.out.println("Has vivido " + dias + " días");
     }
 }

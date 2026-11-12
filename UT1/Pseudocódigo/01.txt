@@ -6,5 +6,5 @@ INICIO
   ESCRIBIR "Introduce tu edad en años"
   LEER edad
   dias <- edad * 365
-  ESCRIBIR "Has vivido ", dias, " dias"
+  ESCRIBIR "Has vivido ", dias, " días"
 FIN
