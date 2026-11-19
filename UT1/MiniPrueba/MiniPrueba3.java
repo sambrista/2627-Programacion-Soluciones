@@ -25,6 +25,7 @@ public class MiniPrueba2 {
 		if(cont2>cont1){
 			resultado=n2;
 		}
+		
 		return resultado;
 	}
 		

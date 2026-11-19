@@ -14,5 +14,16 @@ public class MiniPrueba1 {
         System.out.println();
     }
 	
+	public void desplazarAdelante (int[] array){
+		if(array.length >=1){
+				int ultimo = array[array.length-1];
+				
+				for(int i = array.length-1;i>0;i--){
+					array[i]=array[i-1];
+				}
+				array[0]=ultimo;
+		}		
+	}
+	
 	
 }
